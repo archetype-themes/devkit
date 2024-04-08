@@ -16,19 +16,15 @@
   <!-- End Google Tag Manager -->
 </head>
 
-<style>
-  
-</style>
-
 <body>
   <section class="content">
     <div>
       <a href="https://archetypethemes.co"><img id="logo" src="logo.png" width="180"></a>
-      <h1>Contribute to defining the best way to build</h1>
+      <h1>Get ready to fast track advanced theme development</h1>
 
-      <p id="subtitle">We're nerding-out over Shopify theme design and development practices and are about to share something big.</p>
+      <p id="subtitle">Get notified when we release a modern component-first theme building experience for Shopify as public preview</p>
 
-      <p>Share your email to join the conversation and follow along:</p>
+      <p>Submit your email to find out when our public preview release in GitHub goes live:</p>
 
       <form class="email-form">
         <div class="input-group">
@@ -159,7 +155,6 @@
     --sl-color-primary-500: var(--at-color-primary);
     --sl-input-border-color-focus: var(--at-color-primary);
     --sl-input-border-color-focus: var(--at-color-primary);
-    --sl-input-border-width
     --sl-input-focus-ring-color: var(--at-color-primary);
     --sl-color-success-600: var(--at-color-primary);
     --sl-focus-ring-width: 2px;
@@ -223,6 +218,12 @@
     -webkit-font-smoothing: antialiased;
   }
 
+  @media (max-width: 800px) {
+    body {
+      grid-template-columns: 100%;
+    }
+  }
+
   section.content {
     display: flex;
     flex-direction: column;
@@ -232,6 +233,12 @@
 
   section.video {
     background-color: #151B17;
+  }
+
+  @media (max-width: 800px) {
+    section.video {
+      display: none;
+    }
   }
 
   video {
@@ -329,14 +336,12 @@
   #email {
     flex-grow: 4;
     margin-right: var(--sl-spacing-x-small);
+    max-width: 400px;
   }
 
   #find-us-on {
     margin-bottom: var(--sl-spacing-x-small);
   }
-
-
-
 
   img {
     max-width: 100%;
@@ -350,29 +355,6 @@
     color: var(--sl-color-primary-800);
   }
 
-  abbr[title] {
-    text-decoration: none;
-    border-bottom: dashed 1px var(--sl-color-primary-700);
-    cursor: help;
-  }
-
-  em {
-    font-style: italic;
-  }
-
-  strong {
-    font-weight: var(--sl-font-weight-bold);
-  }
-
-  code {
-    font-family: var(--sl-font-mono);
-    font-size: 0.9125em;
-    background-color: rgba(0 0 0 / 0.025);
-    background-blend-mode: darken;
-    border-radius: var(--docs-border-radius);
-    padding: 0.125em 0.25em;
-  }
-
   .sl-theme-dark code {
     background-color: rgba(255 255 255 / 0.03);
   }
@@ -383,7 +365,9 @@
   }
 
   #message.success {
-    color: var(--at-color-primary);
+    color: #868B74;
+    font-weight: 600;
+    margin-top: var(--sl-spacing-x-small);
   }
 
   #message ~ sl-button {
