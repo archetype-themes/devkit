@@ -18,15 +18,14 @@
 
 <body>
   <section class="content">
-    <div class="content__main hidden">
+    <div class="content__main" hidden>
       <a href="https://archetypethemes.co"><img id="logo" src="logo.png" width="180"></a>
       <h1>Fast track your advanced theme development</h1>
 
       <p id="subtitle">Get notified when we release a modern component-first theme building experience for Shopify as public preview</p>
 
-      <p>Submit your email to find out when our public preview release in GitHub goes live:</p>
-
       <form class="email-form">
+        <p>Submit your email to find out when our public preview release in GitHub goes live:</p>
         <div class="input-group">
           <sl-input 
             id="full_name"
@@ -119,12 +118,19 @@
         document.querySelector('.content__confirm-email--error').hidden = false;
       })
   } else {
-    document.querySelector('.content__main').classList.remove('hidden');
+    document.querySelector('.content__main').hidden = false;
+  }
+
+  function getBaseURL() {
+    if (!location.href.includes('dev.archetypethemes.co')) {
+      return 'http://localhost:3000'
+    } else {
+      return 'https://api.archetypethemes.co'
+    }
   }
 
   async function confirmEmail(email) {
-      const baseURL = 'https://api.archetypethemes.co'
-      const response = await fetch(`${baseURL}/api/newsletter/confirm?email=${email}`);
+      const response = await fetch(`${getBaseURL()}/api/newsletter/confirm?email=${email}`);
       const {error, customers} = await response.json();
       if (error) throw error
       return customer.length > 0
@@ -154,8 +160,7 @@
     };
 
     try {
-      const baseURL = 'https://api.archetypethemes.co'
-      const response = await fetch(`${baseURL}/api/newsletter/add`, options);
+      const response = await fetch(`${getBaseURL()}/api/newsletter/add`, options);
 
       // Handle error state
       if (response.ok || response.status === 422) {
@@ -250,10 +255,6 @@
   ::selection {
     background-color: var(--sl-color-primary-200);
     color: var(--sl-color-neutral-900);
-  }
-
-  .hidden {
-    display: none;
   }
 
   /* Show custom elements only after they're registered */
@@ -433,6 +434,7 @@
   }
 
   #find-us-on {
+    margin-top: var(--sl-spacing-4x-large);
     margin-bottom: var(--sl-spacing-x-small);
   }
 
@@ -465,10 +467,6 @@
 
   #message ~ sl-button {
     margin-top: var(--sl-spacing-medium);
-  }
-
-  .email-form {
-    margin-bottom: var(--sl-spacing-4x-large);
   }
 
   .email-form sl-input {
