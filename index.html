@@ -86,6 +86,12 @@
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
     }
+
+    @media (min-width: 1200px) {
+      body {
+        grid-template-columns: 600px calc(100% - 600px);
+      }
+    }
   
     @media (max-width: 800px) {
       body {
@@ -99,6 +105,7 @@
       justify-content: center;
       padding: var(--sl-spacing-3x-large);
       padding-top: 125px;
+      max-width: 600px;
     }
   
     section.video {
