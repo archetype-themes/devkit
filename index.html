@@ -53,8 +53,8 @@
         <div class="input-group">
           <sl-button id="submit" class="email-input" type="submit" variant="primary">Submit</sl-button>
         </div>
-        <div id="message" aria-live="polite" hidden></div>
       </form>
+      <div id="message" aria-live="polite" hidden></div>
 
       <p id="find-us-on">Find us on:</p>
       <sl-button class="social" href="https://github.com/archetype-themes" variant="default" size="small" pill>
@@ -159,10 +159,11 @@
 
       // Handle error state
       if (response.ok || response.status === 422) {
-        nameError.textContent = `Thanks! We'll be in touch!`;
+        nameError.textContent = `Success! Check your email to confirm subscription.`;
         nameError.classList.remove("error")
         nameError.classList.add("success")
         nameError.hidden = false;
+        form.hidden = true
       } else if (response.status === 409) {
         nameError.textContent = `You're already subscribed to this list`;
         nameError.classList.remove("success")
