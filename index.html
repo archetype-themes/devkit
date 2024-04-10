@@ -14,6 +14,289 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-W83ZZ2D');</script>
   <!-- End Google Tag Manager -->
+
+  <style>
+    :root {
+      --at-color-primary: #868B74;
+      --sl-font-size-3x-large: 4rem;
+      --sl-input-color: #FFF;
+      --sl-input-background-color: #111311;
+      --sl-color-primary-500: var(--at-color-primary);
+      --sl-input-border-color-focus: var(--at-color-primary);
+      --sl-input-border-color-focus: var(--at-color-primary);
+      --sl-input-focus-ring-color: var(--at-color-primary);
+      --sl-color-success-600: var(--at-color-primary);
+      --sl-focus-ring-width: 2px;
+    }
+    /* Bare styles */
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+  
+    a:focus,
+    button:focus {
+      outline: none;
+    }
+  
+    a:focus-visible,
+    button:focus-visible {
+      outline: var(--sl-focus-ring);
+      outline-offset: var(--sl-focus-ring-offset);
+    }
+  
+    ::selection {
+      background-color: var(--sl-color-primary-200);
+      color: var(--sl-color-neutral-900);
+    }
+  
+    /* Show custom elements only after they're registered */
+    :not(:defined),
+    :not(:defined) * {
+      opacity: 0;
+    }
+  
+    :defined {
+      opacity: 1;
+      transition: 0.1s opacity;
+    }
+  
+    html {
+      height: 100%;
+      box-sizing: border-box;
+      line-height: var(--sl-line-height-normal);
+      padding: 0;
+      margin: 0;
+    }
+  
+    body {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      height: 100%;
+      font: 16px var(--sl-font-sans);
+      font-weight: var(--sl-font-weight-normal);
+      background-color: var(--docs-background-color);
+      line-height: var(--sl-line-height-normal);
+      color: var(--sl-color-neutral-900);
+      padding: 0;
+      margin: 0;
+      overflow-x: hidden;
+      background: #121713;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+    }
+  
+    @media (max-width: 800px) {
+      body {
+        grid-template-columns: 100%;
+      }
+    }
+  
+    section.content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: var(--sl-spacing-3x-large);
+      padding-top: 125px;
+    }
+  
+    section.video {
+      background-color: #151B17;
+    }
+  
+    @media (max-width: 800px) {
+      section.video {
+        display: none;
+      }
+    }
+  
+    video {
+      width: 100%;
+      height: 100%;
+    }
+  
+    #logo {
+      position: absolute;
+      top: var(--sl-spacing-3x-large);
+    }
+  
+    /* Common elements */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: var(--sl-font-sans);
+      font-weight: var(--sl-font-weight-semibold);
+      margin: 3rem 0 1.5rem 0;
+    }
+  
+    h1:first-of-type {
+      margin-top: 1rem;
+    }
+  
+    h1 {
+      font-size: var(--sl-font-size-3x-large);
+      line-height: var(--sl-line-height-denser)
+    }
+  
+    sl-button::part(base) {
+      text-transform: uppercase;
+    }
+  
+    sl-button.email-input::part(base) {
+      background-color: #20231D;
+  
+      color: var(--at-color-primary);
+      border-radius: 4px;
+      border-width: 0;
+      box-shadow: 0px 0px 0px 1px var(--at-color-primary), 0px 2px 2px 0px rgba(10, 10, 10, 0.60);
+    }
+  
+    sl-button.email-input::part(base):hover {
+      background: #34382C;
+      box-shadow: 0px 0px 0px 1px var(--at-color-primary), 0px 2px 2px 0px rgba(10, 10, 10, 0.60);
+    }
+  
+    sl-button.email-input::part(base):focus {
+      outline: none;
+      background: #34382C;
+      box-shadow: 0px 0px 0px 2px var(--at-color-primary), 0px 2px 2px 0px rgba(10, 10, 10, 0.60);
+    }
+  
+    sl-button.social {
+      margin-bottom: var(--sl-spacing-x-small);
+      margin-right: var(--sl-spacing-x-small);
+    }
+  
+    sl-button.social::part(base) {
+      background-color: #171916;
+      color: var(--at-color-primary);
+      border-width: 0;
+      box-shadow: 0px 0px 0px 1px #37392F, 0px 2px 2px 0px rgba(10, 10, 10, 0.60);
+    }
+  
+    sl-button.social::part(base):hover {
+      background: #34382C;
+      box-shadow: 0px 0px 0px 1px var(--at-color-primary), 0px 2px 2px 0px rgba(10, 10, 10, 0.60);
+    }
+  
+    sl-button.social::part(base):focus {
+      outline: none;
+      background: #34382C;
+      box-shadow: 0px 0px 0px 2px var(--at-color-primary), 0px 2px 2px 0px rgba(10, 10, 10, 0.60);
+    }
+  
+    #subtitle {
+      color: #AFBAB0;
+      font-weight: 400;
+      font-size: var(--sl-font-size-large);
+      line-height: var(--sl-line-height-dense);
+      margin-bottom: var(--sl-spacing-3x-large);
+  
+    }
+  
+  
+    .input-group {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    @media (min-width: 600px) and (max-width: 800px) {
+      .input-group {
+        flex-wrap: nowrap;
+      }
+    }
+  
+    @media (min-width: 1100px) {
+      .input-group {
+        flex-wrap: nowrap;
+      }
+    }
+    
+    .input-group > * {
+      width: 100%;
+      margin-right: var(--sl-spacing-x-small);
+      margin-bottom: var(--sl-spacing-x-small);
+    }
+  
+    #email {
+      flex-grow: 4;
+      margin-right: var(--sl-spacing-x-small);
+    }
+  
+    #find-us-on {
+      margin-top: var(--sl-spacing-4x-large);
+      margin-bottom: var(--sl-spacing-x-small);
+    }
+  
+    img {
+      max-width: 100%;
+    }
+  
+    a {
+      color: var(--sl-color-primary-700);
+    }
+  
+    a:hover {
+      color: var(--sl-color-primary-800);
+    }
+  
+    .sl-theme-dark code {
+      background-color: rgba(255 255 255 / 0.03);
+    }
+    
+    
+    #message.error {
+      color: var(--sl-color-danger-600);
+    }
+  
+    #message.success {
+      color: #868B74;
+      font-weight: 600;
+      margin-top: var(--sl-spacing-x-small);
+    }
+  
+    #message ~ sl-button {
+      margin-top: var(--sl-spacing-medium);
+    }
+  
+    .email-form sl-input {
+      display: block;
+    }
+  
+    /* user invalid styles */
+    .email-form sl-input[data-user-invalid]::part(base) {
+      border-color: var(--sl-color-danger-600);
+    }
+  
+    .email-form [data-user-invalid]::part(form-control-label),
+    .email-form [data-user-invalid]::part(form-control-help-text) {
+      color: var(--sl-color-danger-700);
+    }
+  
+    .email-form sl-input:focus-within[data-user-invalid]::part(base) {
+      border-color: var(--sl-color-danger-600);
+      box-shadow: 0 0 0 var(--sl-focus-ring-width) var(--sl-color-danger-300);
+    }
+  
+    /* User valid styles */
+    .email-form sl-input[data-user-valid]::part(base) {
+      border-color: var(--sl-color-success-600);
+    }
+  
+    .email-form [data-user-valid]::part(form-control-label),
+    .email-form [data-user-valid]::part(form-control-help-text) {
+      color: var(--sl-color-success-700);
+    }
+  
+    .email-form sl-input:focus-within[data-user-valid]::part(base) {
+      border-color: var(--sl-color-success-600);
+      box-shadow: 0 0 0 var(--sl-focus-ring-width) var(--sl-color-success-300);
+    }
+  </style>
 </head>
 
 <body>
@@ -53,6 +336,7 @@
           <sl-button id="submit" class="email-input" type="submit" variant="primary">Submit</sl-button>
         </div>
       </form>
+
       <div id="message" aria-live="polite" hidden></div>
 
       <p id="find-us-on">Find us on:</p>
@@ -99,27 +383,10 @@
 
 <script type="module">
   const form = document.querySelector('.email-form');
-  const nameError = document.querySelector('#message');
+  const formMessage = document.querySelector('#message');
   const emailInput = document.querySelector('#email');
   const nameInput = document.querySelector('#full_name');
   const companyInput = document.querySelector('#company');
-
-  const url = new URL(location.href);
-  const params = new URLSearchParams(url.search);
-  const email = params.get('confirm-email')
-
-  if (email) {
-    confirmEmail(email)
-      .then(() => {
-        document.querySelector('.content__confirm-email').hidden = false;
-      })
-      .catch((error) => {
-        console.error(error)
-        document.querySelector('.content__confirm-email--error').hidden = false;
-      })
-  } else {
-    document.querySelector('.content__main').hidden = false;
-  }
 
   function getBaseURL() {
     if (!location.href.includes('dev.archetypethemes.co')) {
@@ -131,9 +398,9 @@
 
   async function confirmEmail(email) {
       const response = await fetch(`${getBaseURL()}/api/newsletter/confirm?email=${email}`);
-      const {error, customers} = await response.json();
+      const {error} = await response.json();
       if (error) throw error
-      return customer.length > 0
+      return response.status === 200
   }
 
   function splitName(name) {
@@ -164,25 +431,44 @@
 
       // Handle error state
       if (response.ok || response.status === 422) {
-        nameError.textContent = `Success! Check your email to confirm subscription.`;
-        nameError.classList.remove("error")
-        nameError.classList.add("success")
-        nameError.hidden = false;
+        formMessage.textContent = `Success! Check your email to confirm subscription.`;
+        formMessage.classList.remove("error")
+        formMessage.classList.add("success")
+        formMessage.hidden = false;
         form.hidden = true
       } else if (response.status === 409) {
-        nameError.textContent = `You're already subscribed to this list`;
-        nameError.classList.remove("success")
-        nameError.classList.add("error")
-        nameError.hidden = false;
+        formMessage.textContent = `You're already subscribed to this list`;
+        formMessage.classList.remove("success")
+        formMessage.classList.add("error")
+        formMessage.hidden = false;
       } else {
-        nameError.textContent = `There was an error while trying to submit the email`;
-        nameError.classList.remove("success")
-        nameError.classList.add("error")
-        nameError.hidden = false;
+        throw response
       }
     } catch (e) {
-      console.log(e)
+      formMessage.textContent = `There was an error while trying to submit the email`;
+      formMessage.classList.remove("success")
+      formMessage.classList.add("error")
+      formMessage.hidden = false;
+      console.error(e)
     }
+  }
+
+  const url = new URL(location.href);
+  const params = new URLSearchParams(url.search);
+
+  if (params.get('confirm-email') === 'true') {
+    const email = window.location.hash.slice(1);
+
+    confirmEmail(email)
+      .then(() => {
+        document.querySelector('.content__confirm-email').hidden = false;
+      })
+      .catch((error) => {
+        console.error(error)
+        document.querySelector('.content__confirm-email--error').hidden = false;
+      })
+  } else {
+    document.querySelector('.content__main').hidden = false;
   }
 
   await Promise.all([
@@ -220,287 +506,4 @@
     });
   });
 </script>
-
-<style>
-  :root {
-    --at-color-primary: #868B74;
-    --sl-font-size-3x-large: 4rem;
-    --sl-input-color: #FFF;
-    --sl-input-background-color: #111311;
-    --sl-color-primary-500: var(--at-color-primary);
-    --sl-input-border-color-focus: var(--at-color-primary);
-    --sl-input-border-color-focus: var(--at-color-primary);
-    --sl-input-focus-ring-color: var(--at-color-primary);
-    --sl-color-success-600: var(--at-color-primary);
-    --sl-focus-ring-width: 2px;
-  }
-  /* Bare styles */
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-
-  a:focus,
-  button:focus {
-    outline: none;
-  }
-
-  a:focus-visible,
-  button:focus-visible {
-    outline: var(--sl-focus-ring);
-    outline-offset: var(--sl-focus-ring-offset);
-  }
-
-  ::selection {
-    background-color: var(--sl-color-primary-200);
-    color: var(--sl-color-neutral-900);
-  }
-
-  /* Show custom elements only after they're registered */
-  :not(:defined),
-  :not(:defined) * {
-    opacity: 0;
-  }
-
-  :defined {
-    opacity: 1;
-    transition: 0.1s opacity;
-  }
-
-  html {
-    height: 100%;
-    box-sizing: border-box;
-    line-height: var(--sl-line-height-normal);
-    padding: 0;
-    margin: 0;
-  }
-
-  body {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    height: 100%;
-    font: 16px var(--sl-font-sans);
-    font-weight: var(--sl-font-weight-normal);
-    background-color: var(--docs-background-color);
-    line-height: var(--sl-line-height-normal);
-    color: var(--sl-color-neutral-900);
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
-    background: #121713;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-  }
-
-  @media (max-width: 800px) {
-    body {
-      grid-template-columns: 100%;
-    }
-  }
-
-  section.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: var(--sl-spacing-3x-large);
-    padding-top: 125px;
-  }
-
-  section.video {
-    background-color: #151B17;
-  }
-
-  @media (max-width: 800px) {
-    section.video {
-      display: none;
-    }
-  }
-
-  video {
-    width: 100%;
-    height: 100%;
-  }
-
-  #logo {
-    position: absolute;
-    top: var(--sl-spacing-3x-large);
-  }
-
-  /* Common elements */
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: var(--sl-font-sans);
-    font-weight: var(--sl-font-weight-semibold);
-    margin: 3rem 0 1.5rem 0;
-  }
-
-  h1:first-of-type {
-    margin-top: 1rem;
-  }
-
-  h1 {
-    font-size: var(--sl-font-size-3x-large);
-    line-height: var(--sl-line-height-denser)
-  }
-
-  sl-button::part(base) {
-    text-transform: uppercase;
-  }
-
-  sl-button.email-input::part(base) {
-    background-color: #20231D;
-
-    color: var(--at-color-primary);
-    border-radius: 4px;
-    border-width: 0;
-    box-shadow: 0px 0px 0px 1px var(--at-color-primary), 0px 2px 2px 0px rgba(10, 10, 10, 0.60);
-  }
-
-  sl-button.email-input::part(base):hover {
-    background: #34382C;
-    box-shadow: 0px 0px 0px 1px var(--at-color-primary), 0px 2px 2px 0px rgba(10, 10, 10, 0.60);
-  }
-
-  sl-button.email-input::part(base):focus {
-    outline: none;
-    background: #34382C;
-    box-shadow: 0px 0px 0px 2px var(--at-color-primary), 0px 2px 2px 0px rgba(10, 10, 10, 0.60);
-  }
-
-  sl-button.social {
-    margin-bottom: var(--sl-spacing-x-small);
-    margin-right: var(--sl-spacing-x-small);
-  }
-
-  sl-button.social::part(base) {
-    background-color: #171916;
-    color: var(--at-color-primary);
-    border-width: 0;
-    box-shadow: 0px 0px 0px 1px #37392F, 0px 2px 2px 0px rgba(10, 10, 10, 0.60);
-  }
-
-  sl-button.social::part(base):hover {
-    background: #34382C;
-    box-shadow: 0px 0px 0px 1px var(--at-color-primary), 0px 2px 2px 0px rgba(10, 10, 10, 0.60);
-  }
-
-  sl-button.social::part(base):focus {
-    outline: none;
-    background: #34382C;
-    box-shadow: 0px 0px 0px 2px var(--at-color-primary), 0px 2px 2px 0px rgba(10, 10, 10, 0.60);
-  }
-
-  #subtitle {
-    color: #AFBAB0;
-    font-weight: 400;
-    font-size: var(--sl-font-size-large);
-    line-height: var(--sl-line-height-dense);
-    margin-bottom: var(--sl-spacing-3x-large);
-
-  }
-
-
-  .input-group {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  @media (min-width: 600px) and (max-width: 800px) {
-    .input-group {
-      flex-wrap: nowrap;
-    }
-  }
-
-  @media (min-width: 1100px) {
-    .input-group {
-      flex-wrap: nowrap;
-    }
-  }
-  
-  .input-group > * {
-    width: 100%;
-    margin-right: var(--sl-spacing-x-small);
-    margin-bottom: var(--sl-spacing-x-small);
-  }
-
-  #email {
-    flex-grow: 4;
-    margin-right: var(--sl-spacing-x-small);
-  }
-
-  #find-us-on {
-    margin-top: var(--sl-spacing-4x-large);
-    margin-bottom: var(--sl-spacing-x-small);
-  }
-
-  img {
-    max-width: 100%;
-  }
-
-  a {
-    color: var(--sl-color-primary-700);
-  }
-
-  a:hover {
-    color: var(--sl-color-primary-800);
-  }
-
-  .sl-theme-dark code {
-    background-color: rgba(255 255 255 / 0.03);
-  }
-  
-  
-  #message.error {
-    color: var(--sl-color-danger-600);
-  }
-
-  #message.success {
-    color: #868B74;
-    font-weight: 600;
-    margin-top: var(--sl-spacing-x-small);
-  }
-
-  #message ~ sl-button {
-    margin-top: var(--sl-spacing-medium);
-  }
-
-  .email-form sl-input {
-    display: block;
-  }
-
-  /* user invalid styles */
-  .email-form sl-input[data-user-invalid]::part(base) {
-    border-color: var(--sl-color-danger-600);
-  }
-
-  .email-form [data-user-invalid]::part(form-control-label),
-  .email-form [data-user-invalid]::part(form-control-help-text) {
-    color: var(--sl-color-danger-700);
-  }
-
-  .email-form sl-input:focus-within[data-user-invalid]::part(base) {
-    border-color: var(--sl-color-danger-600);
-    box-shadow: 0 0 0 var(--sl-focus-ring-width) var(--sl-color-danger-300);
-  }
-
-  /* User valid styles */
-  .email-form sl-input[data-user-valid]::part(base) {
-    border-color: var(--sl-color-success-600);
-  }
-
-  .email-form [data-user-valid]::part(form-control-label),
-  .email-form [data-user-valid]::part(form-control-help-text) {
-    color: var(--sl-color-success-700);
-  }
-
-  .email-form sl-input:focus-within[data-user-valid]::part(base) {
-    border-color: var(--sl-color-success-600);
-    box-shadow: 0 0 0 var(--sl-focus-ring-width) var(--sl-color-success-300);
-  }
-</style>
 </html>
