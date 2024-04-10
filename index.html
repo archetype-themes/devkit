@@ -18,9 +18,9 @@
 
 <body>
   <section class="content">
-    <div>
+    <div class="content__main hidden">
       <a href="https://archetypethemes.co"><img id="logo" src="logo.png" width="180"></a>
-      <h1>Get ready to fast track advanced theme development</h1>
+      <h1>Fast track your advanced theme development</h1>
 
       <p id="subtitle">Get notified when we release a modern component-first theme building experience for Shopify as public preview</p>
 
@@ -29,20 +29,16 @@
       <form class="email-form">
         <div class="input-group">
           <sl-input 
-            id="first_name"
+            id="full_name"
             class="email-input"
             type="text"
-            placeholder="First Name"
-            autocomplete="given-name"
-            required
+            placeholder="Full name"
           ></sl-input>
           <sl-input 
-            id="last_name"
+            id="company"
             class="email-input"
             type="text"
-            placeholder="Last Name" 
-            autocomplete="family-name"
-            required
+            placeholder="Company"
           ></sl-input>
         </div>
         <div class="input-group">
@@ -82,8 +78,16 @@
         Youtube
       </sl-button>
     </div>
-    
-    
+
+    <div class="content__confirm-email" hidden>
+      <a href="https://archetypethemes.co"><img id="logo" src="logo.png" width="180"></a>
+      <p>Your subscription has been confirmed!</p>
+    </div>
+
+    <div class="content__confirm-email--error" hidden>
+      <a href="https://archetypethemes.co"><img id="logo" src="logo.png" width="180"></a>
+      <p>There was an error confirming your email. Please reach out to us at dev@archetypethemes.co so we can get this fixed!</p>
+    </div>
   </section>
   <section class="video">
     <video autoplay loop muted>
@@ -98,10 +102,43 @@
   const form = document.querySelector('.email-form');
   const nameError = document.querySelector('#message');
   const emailInput = document.querySelector('#email');
-  const firstNameInput = document.querySelector('#first_name');
-  const lastNameInput = document.querySelector('#last_name');
+  const nameInput = document.querySelector('#full_name');
+  const companyInput = document.querySelector('#company');
+
+  const url = new URL(location.href);
+  const params = new URLSearchParams(url.search);
+  const email = params.get('confirm-email')
+
+  if (email) {
+    confirmEmail(email)
+      .then(() => {
+        document.querySelector('.content__confirm-email').hidden = false;
+      })
+      .catch((error) => {
+        console.error(error)
+        document.querySelector('.content__confirm-email--error').hidden = false;
+      })
+  } else {
+    document.querySelector('.content__main').classList.remove('hidden');
+  }
+
+  async function confirmEmail(email) {
+      const baseURL = 'http://localhost:3000' //'https://api.archetypethemes.co'
+      const response = await fetch(`${baseURL}/api/newsletter/confirm?email=${email}`);
+      const {error, customers} = await response.json();
+      if (error) throw error
+      return customer.length > 0
+  }
+
+  function splitName(name) {
+    const parts = name.split(' ');
+    const first_name = parts[0];
+    const last_name = parts.length > 1 ? parts.slice(1).join(' ') : ''; // Handles names with more than two parts
+    return { first_name, last_name };
+  }
 
   async function submitEmail() {
+    const { first_name, last_name } = splitName(nameInput.value);
     const options = {
       method: 'POST',
       headers: {
@@ -109,14 +146,15 @@
       },
       body: JSON.stringify({
         email: emailInput.value, 
-        first_name: firstNameInput.value, 
-        last_name: lastNameInput.value,
+        first_name,
+        last_name,
+        company: companyInput.value || null,
         tags: 'Devkit'
       })
     };
 
     try {
-      const baseURL = 'https://api.archetypethemes.co'
+      const baseURL = 'http://localhost:3000' //'https://api.archetypethemes.co'
       const response = await fetch(`${baseURL}/api/newsletter/add`, options);
 
       // Handle error state
@@ -124,6 +162,11 @@
         nameError.textContent = `Thanks! We'll be in touch!`;
         nameError.classList.remove("error")
         nameError.classList.add("success")
+        nameError.hidden = false;
+      } else if (response.status === 409) {
+        nameError.textContent = `You're already subscribed to this list`;
+        nameError.classList.remove("success")
+        nameError.classList.add("error")
         nameError.hidden = false;
       } else {
         nameError.textContent = `There was an error while trying to submit the email`;
@@ -208,6 +251,10 @@
     color: var(--sl-color-neutral-900);
   }
 
+  .hidden {
+    display: none;
+  }
+
   /* Show custom elements only after they're registered */
   :not(:defined),
   :not(:defined) * {
@@ -255,6 +302,7 @@
     flex-direction: column;
     justify-content: center;
     padding: var(--sl-spacing-3x-large);
+    padding-top: 125px;
   }
 
   section.video {
