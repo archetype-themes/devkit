@@ -16,6 +16,8 @@ By embracing open source, we aim to enhance collaboration and drive innovation a
 > 
 > Check out the the [Contributing]() section for more details!
 
+### The value we're chasing
+
 We're looking to help establish the community-backed standard for theme design and development, and provide the following value:
 
 - 😇 **Keep things vanilla** - Stop working with compiled theme code. Stay as close to the platforms as possible. Devkit keeps things simple with minimal tooling magic. No bundlers. No compiled code. Use modern browsers to their full capabilities.
