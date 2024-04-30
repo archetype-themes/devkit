@@ -1,4 +1,4 @@
-# Archetype Devkit
+# Archetype Devkit (Preview)
 
 > [!NOTE]
 > **This initial preview of the Archetype Devkit is a call to action for the community.** We invite you to bring your insights and experiences to help shape our collective approach to theme development. Your feedback is crucial as we refine our methodologies and collaborate to establish best practices that benefit us all, paving the way to our grand launch in September 2024.
