@@ -4,7 +4,7 @@
 
 _Intro paragraph that mentions the Devkit mission + touches on the future of theme development and component centric workflow_
 
-> [!TIP]
+> [!NOTE]
 > _Insert text that lets us know specific details about what the preview is all about_
 
 ## Why you should care
