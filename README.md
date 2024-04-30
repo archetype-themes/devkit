@@ -46,7 +46,7 @@ _Links to other doc files found inside the /docs folder_
 
 ## Contributing
 
-_How to contribute..._
+Interested in shaping the future of theme development with us? We welcome you to join our community! While we aren't looking for direct code contributions at this time, your insights and discussions play a crucial role in our continuous improvement. We encourage you to start [discussions](https://github.com/archetype-themes/devkit/discussions), ask questions, and provide feedback on our component approach.
 
 ## FAQs + Discussion
 
