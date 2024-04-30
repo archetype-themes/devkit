@@ -1,6 +1,7 @@
 # Archetype Devkit (Preview)
 
 <a target="_blank" href="https://www.youtube.com/embed/Q4Nx2KgUd0s?si=ZSCEtAMhdGHQMFdb"><img width="1242" alt="image" src="https://github.com/archetype-themes/devkit/assets/4837696/b2f4860e-7f4b-457b-9881-979c2fa74eec"></a>
+_^^ Link to introductory video + show youtube thumbnail_
 
 **[Sign up for Devkit email updates](https://dev.archetypethemes.co)**
 
