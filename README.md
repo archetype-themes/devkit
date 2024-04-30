@@ -16,18 +16,14 @@ By embracing open source, we aim to enhance collaboration and drive innovation a
 > 
 > Check out the the [Contributing]() section for more details!
 
-## The value we're chasing
+We're looking to help establish the community-backed standard for theme design and development, and provide the following value:
 
-- Stop building and maintaining your own tooling
-  - Start using a fully-featured, community vetted approach
-- Stop working with compiled theme code
-  - Start working with Archetype's source code
-- Stop maintaining a catalogue of theme project code-bases
-  - Start funnelling all your work into a shared common core
-- Stop re-inventing the same old functionality, with inferior results
-  - Start using tested, configurable, and reusable components that are live on 100,000s of stores
-- Stop producing theme designs that break when handed off to developers
-  - Start creating theme designs based on actual components
+- 😇 **Keep things vanilla** - Stop working with compiled theme code. Stay as close to the platforms as possible. Devkit keeps things simple with minimal tooling magic. No bundlers. No compiled code. Use modern browsers to their full capabilities.
+- 🏘️ **Build together instead of in silos** - Stop building and maintaining your own tooling. We all benefit from collaborating on **how** to build themes. Save the competition for **what** we build.
+- 🧱 **Build high-quality, reusable components** - Build the pieces really well and reuse it in other places.
+- 👷 **Centralize and compound contributions over time** - Centralize your theme code and share it across theme projects. A clear interface between re-usable and project specific code. Make it it easy to keep your themes up-to-date.
+- 🤲 **Better designer handoffs** - A component design experience that matches
+
  
 ## Getting Started
 
