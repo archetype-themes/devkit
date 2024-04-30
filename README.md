@@ -2,10 +2,17 @@
 
 <a target="_blank" href="https://www.youtube.com/embed/Q4Nx2KgUd0s?si=ZSCEtAMhdGHQMFdb"><img width="679" alt="image" src="https://github.com/archetype-themes/devkit/assets/4837696/487d13f1-a532-45e9-9ceb-821a69c730f9"></a>
 
-_Intro paragraph that mentions the Devkit mission + touches on the future of theme development and component centric workflow_
+
+Welcome to the Archetype Developer Kit on GitHub. As Shopify increasingly targets enterprise merchants in a cost-conscious economic climate, the value of coding with Liquid has become clear. Yet, existing tools like Dawn, Shopify CLI, and the Shopify Dev Docs often fall short for advanced theme development teams. 
+
+We're opening Archetype's Devkit, the same tools we use to power 100k+ Shopify stores, to serve the needs of the broader professional theme development community. 
+
+Leveraging our 10+ years of Shopify theme development experience, this kit provides robust tools and access to theme source code, enabling both designers and developers to efficiently build and maintain premium themes. 
+
+By embracing open source, we aim to enhance collaboration and drive innovation across the Shopify theme development community. Dive in to see how the Archetype Developer Kit can streamline your workflow and elevate your theme development projects.
 
 > [!NOTE]
-> _Insert text that lets us know specific details about what the preview is all about_
+> This initial preview of the Archetype Developer Kit is a call to action for the community. We invite you to bring your insights and experiences to help shape our collective approach to theme development. Your feedback is crucial as we refine our methodologies and collaborate to establish best practices that benefit us all, paving the way to our grand launch in September.
 
 ## Why you should care
 
@@ -22,7 +29,7 @@ _Intro paragraph that mentions the Devkit mission + touches on the future of the
  
 ## Getting Started
 
-_Insert intro of getting started guide here and link to dedicated doc for it /getting-started.md_
+Check out our [Getting Started Guide](1.%20Getting%20Started/a.%20Overview.md) for a walkthrough of the full Devkit environment.
  
 ## The tools of Devkit
 
