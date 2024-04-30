@@ -1,11 +1,8 @@
 # Archetype Devkit (Preview)
 
-> [!NOTE]
-> **This initial preview of the Archetype Devkit is a call to action for the community.** We invite you to bring your insights and experiences to help shape our collective approach to theme development. Your feedback is crucial as we refine our methodologies and collaborate to establish best practices that benefit us all, paving the way to our grand launch in September 2024.
-> 
-> Check out the the [Contributing]() section for more details!
+<a target="_blank" href="https://www.youtube.com/embed/Q4Nx2KgUd0s?si=ZSCEtAMhdGHQMFdb"><img width="1242" alt="image" src="https://github.com/archetype-themes/devkit/assets/4837696/b2f4860e-7f4b-457b-9881-979c2fa74eec"></a>
 
-<a target="_blank" href="https://www.youtube.com/embed/Q4Nx2KgUd0s?si=ZSCEtAMhdGHQMFdb"><img width="679" alt="image" src="https://github.com/archetype-themes/devkit/assets/4837696/487d13f1-a532-45e9-9ceb-821a69c730f9"></a>
+**[Sign up for Devkit email updates](https://dev.archetypethemes.co)**
 
 Welcome to the Archetype Developer Kit on GitHub. As Shopify increasingly targets enterprise merchants in a cost-conscious economic climate, the value of coding with Liquid has become clear. Yet, existing tools like Dawn, Shopify CLI, and the Shopify Dev Docs often fall short for advanced theme development teams. 
 
@@ -13,6 +10,10 @@ We're opening Archetype's Devkit, the same tools we use to build themes that pow
 
 By embracing open source, we aim to enhance collaboration and drive innovation across the Shopify theme development community. Dive in to see how the Archetype Developer Kit can streamline your workflow and elevate your theme development projects.
 
+> [!NOTE]
+> **This initial preview of the Archetype Devkit is a call to action for the community.** We invite you to bring your insights and experiences to help shape our collective approach to theme development. Your feedback is crucial as we refine our methodologies and collaborate to establish best practices that benefit us all, paving the way to our grand launch in September 2024.
+> 
+> Check out the the [Contributing]() section for more details!
 
 ## The value we're chasing
 
