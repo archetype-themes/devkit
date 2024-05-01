@@ -1,4 +1,4 @@
-#### Client-side JavaScript with `<is-land>`
+# Client-side JavaScript with `<is-land>`
 
 For components requiring client-side JavaScript, we adopt the [`is-land`](https://github.com/11ty/is-land) architecture. This approach allows us to specify a loading strategy to control how and when a component's JavaScript is initialized, and allows us to improve performance by being intentional about when JavaScript executes. More details can be found in the `is-land` project's [README](https://github.com/11ty/is-land#readme).
 

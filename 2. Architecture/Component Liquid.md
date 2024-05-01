@@ -1,10 +1,10 @@
-### Component Liquid
+# Component Liquid
 
 Behind the scenes, Liquid files will automatically be compiled to your theme's `snippets/` directory.
 
 Each component is broken down in a specific way. The details below are based on our own approach to developing components, meaning entirely optional. Read on to better understand the anatomy of a component and how we structure our own.
 
-#### Documentation
+## Documentation
 
 Each theme component should include a Liquid `comment` tag at the beginning of the file, outlining key information about the component:
 
@@ -35,7 +35,7 @@ This structured approach to documentation ensures that every component is clearl
 > - If an attribute is of an object type, specify the associated Liquid object.
 > - For attributes of any other type, such as strings, separate possible values with a pipe (`|`). For example, use `{'small'|'large'}` to indicate selectable options.
 
-#### Parameter list and order of precedence
+## Parameter list and order of precedence
 
 The parameter list defines the accepted parameters for each component within the theme. Here's how you can define a parameter list using Liquid:
 
@@ -77,7 +77,7 @@ It makes it easier to maintain since the most relevant context for any theme dev
 > - If an attribute is of a boolean value, include `| default: true, allow_false: true` to handle default settings and explicitly allow falsy values.
 > - All attributes defined at the top of the file should be the exclusive variables used throughout the file. Avoid direct calls to setting values unless necessary.
 
-#### HTML/Liquid code
+## HTML/Liquid code
 
 In its simplest form, this section is where your component's HTML/Liquid code should be placed.
 

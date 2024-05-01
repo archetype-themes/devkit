@@ -1,4 +1,4 @@
-#### CSS styles
+# CSS styles
 
 Each component can have its own `main.css` file, which will encapsulate the specific CSS styles of that component. Below are the guidelines on how CSS is managed in our own components:
 

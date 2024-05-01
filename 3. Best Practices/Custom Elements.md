@@ -1,4 +1,4 @@
-#### Custom elements
+# Custom elements
 
 Custom elements are the foundational blocks that 99% of e-commerce stores use under the hood. They're small pieces of functionality that make up the larger parts of a storefront that you can, most importantly, compose together.
 

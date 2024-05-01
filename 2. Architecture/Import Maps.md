@@ -1,4 +1,4 @@
-#### Import maps
+# Import maps
 
 We embrace the modern web, and we recognize the importance of a simpler and more straightforward approach to JavaScript in themes. A fundamental tool in achieving this modularity is through JavaScript modules.
 

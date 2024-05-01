@@ -1,4 +1,4 @@
-### Components as composable elements
+# Components as composable elements
 
 We view components as composable elements, similar to building blocks in a LEGO set. Just like LEGO pieces, these elements can be replaced and swapped out with others.
 
@@ -8,7 +8,7 @@ Also, because components are essentially modular snippets, they can dynamically 
 
 It's essential to recognize that these practices are already established in Shopify theme development. Our approach to theme components further leverages these existing mechanisms to simplify and enhance the flexibility of building components, and by extension, entire themes.
 
-#### Slot parameters
+## Slot parameters
 
 Slots are fundamentally "placeholder areas" in which you can _slot_ in content.
 
@@ -63,7 +63,7 @@ If we look at the [`section-main-product`](https://github.com/archetype-themes/r
 
 You may have seen a second slot for the product gallery: `slot_product_gallery`. Because of this, you're able to easily swap out the product gallery with whatever content you choose, including an entirely different component! A parameter, like this one, is entirely optional and it would fall back to the default render within the component if it isn't specified.
 
-##### Modifying components before slotting them in
+## Modifying components before slotting them in
 
 Say we have a custom product gallery component that we created that we know we want to include as part of the `section-main-product` component defined above. And as part of that, we want to ensure a few of its parameter values are set, we can write the following Liquid code:
 
