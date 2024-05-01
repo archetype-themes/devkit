@@ -38,7 +38,7 @@ The only required folder is `components/`, both `script/` and `styles/` are opti
 
 > **_NOTE:_** Behind the scenes, any asset files added to your components will automatically be compiled to your theme's `assets/` directory. Similarly, any Liquid files will automatically be compiled to the `snippets/` directory.
 
-#### Liquid component file
+## Liquid component file
 
 Each component directory must include a Liquid component file, which serves as the essential entry point for the component. Upon installing a component into a theme, the Liquid component file will be generated as a separate snippet file.
 
