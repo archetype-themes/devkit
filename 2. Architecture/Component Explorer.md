@@ -25,7 +25,7 @@ The `section/` folder contains the list of sections in which you want to view yo
 
 The `templates/` folder contains a list of [JSON templates](https://shopify.dev/docs/themes/architecture/templates/json-templates) in which you want each section viewed. The Component Explorer uses alternate templates to render these sections in the context of JSON templates, and they are structured identically.
 
-### Example usage
+### Real-world example
 
 Consider the [`media-with-text`](https://github.com/archetype-themes/reference-components/tree/main/components/section-media-with-text/setup/sections) section component, which uses the structure outlined above to display different versions of the component inside of the Component Explorer. Although its `sections/` folder only contains one section file, you are not limited to a single file.
 
