@@ -1,6 +1,6 @@
-# Components as composable elements
+# Components as modular elements
 
-We view components as composable elements, similar to building blocks in a LEGO set. Just like LEGO pieces, these elements can be replaced and swapped out with others.
+We view components as modular elements, similar to building blocks in a LEGO set. Just like LEGO pieces, these elements can be replaced and swapped out with others.
 
 One idea is to empower developers with a more flexible approach by making parts of components swappable, using the concept of "slots" in Liquid. If a component is designed to accept a ["slot" parameter](#slot-parameters), you can use the Liquid `capture` tag to grab Liquid code—or any value—and pass it as variable content to the component's "slot" parameter.
 
