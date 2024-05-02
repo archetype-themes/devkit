@@ -3,7 +3,8 @@
 <a target="_blank" href="https://www.youtube.com/embed/Q4Nx2KgUd0s?si=ZSCEtAMhdGHQMFdb"><img width="1242" alt="image" src="https://github.com/archetype-themes/devkit/assets/4837696/b2f4860e-7f4b-457b-9881-979c2fa74eec"></a>
 _^^ Link to introductory video + show youtube thumbnail_
 
-> [!NOTE] > **This initial preview of the Archetype Devkit is a call to action for the community.** We invite you to bring your insights and experiences to help shape our collective approach to theme development. Your feedback is crucial as we refine our methodologies and collaborate to establish best practices that benefit us all, paving the way to our grand launch in September 2024. Check out the the [Contributing](#contributing) section for more details!
+> [!NOTE]
+> **This initial preview of the Archetype Devkit is a call to action for the community.** We invite you to bring your insights and experiences to help shape our collective approach to theme development. Your feedback is crucial as we refine our methodologies and collaborate to establish best practices that benefit us all, paving the way to our grand launch in September 2024. Check out the the [Contributing](#contributing) section for more details!
 >
 > **[Sign up for Devkit preview email updates](https://dev.archetypethemes.co)**
 
