@@ -83,7 +83,7 @@ test("cart-icon", async ({ page }) => {
 - **Given**: Initializes the test by navigating to the homepage and simulating a user clicking on the cart icon.
 - **Setup**: Prepares the data to simulate a cart change. This involves setting up a custom event with the number of items that should appear in the cart.
 - **When**: Triggers the event that simulates changing the number of items in the cart.
-- **Then**: Checks if the cart count on the page matches the expected number of items. This is crucial for ensuring that the user interface accurately reflects changes to the cart's contents.
+- **Then**: Checks if the cart count on the page matches the expected number of items.
 
 Defining an effective test involves simulating user interactions and custom events to ensure that your theme components function as expected.
 
