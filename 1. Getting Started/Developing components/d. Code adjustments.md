@@ -12,7 +12,7 @@ You will need two terminals to run the following processes.
 
 First, start the component dev command and provide the name of the component to develop.
 
-```
+```bash
 $ shopify theme component dev block-title
 ```
 
@@ -20,7 +20,7 @@ This will copy the sections and templates from the component’s setup/ director
 
 Second, serve the component explorer theme using the Shopify CLI, specifying the theme’s path.
 
-```
+```bash
 shopify theme dev --path .explorer
 ```
 
@@ -77,7 +77,7 @@ settings: {
 +  },
 ```
 
-```
+```diff
 "blocks": {
   "title_1": {
     "type": "title",
