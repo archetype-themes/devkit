@@ -4,7 +4,7 @@
 
 A component isn't truly encapsulated unless it can be loaded and worked on it isolation, which is exactly what the Component Explorer aims to provide!
 
-The following steps outline a straightforward process for developing a component in Isolation, such as `components/block-title`.
+The following steps outline a straightforward process for developing a component in isolation, such as `components/block-title`.
 
 ### Start the component development commands
 
