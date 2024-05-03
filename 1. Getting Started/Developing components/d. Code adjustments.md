@@ -6,31 +6,35 @@ A component isn't truly encapsulated unless it can be loaded and worked on it is
 
 The following steps outline a straightforward process for developing a component in isolation, such as `components/block-title`.
 
-### Start the component development commands
+To begin developing theme components, you will need to open two terminals for the following processes:
 
-You will need two terminals to run the following processes.
+**1. Start component development**
 
-First, start the component dev command and provide the name of the component to develop.
+First, initiate the component development command and specify the name of the component you want to develop:
 
 ```bash
 $ shopify theme component dev block-title
 ```
 
-This will copy the sections and templates from the component’s setup/ directory to the .explorer/ directory.
+This command copies the sections and templates from the component's `setup/` directory to the `.explorer/` directory.
 
-Second, serve the component explorer theme using the Shopify CLI, specifying the theme’s path.
+**2. Launch Component Explorer**
+
+Next, serve the Component Explorer using the Shopify CLI, specifying the path to the `.explorer/` directory:
 
 ```bash
 shopify theme dev --path .explorer
 ```
 
-This will push the files of the component explorer theme to Shopify and provide URLs to preview and customize it.
+This step pushes the files of the Component Explorer to Shopify and provides URLs to preview and customize your component.
 
 ### Editing the component
 
-For this example we will show the vendor of the product from a given text input with dynamic sources support.
+For this example, we will demonstrate how to show the vendor of a product from a given text input with dynamic sources support.
 
-First, we add the HTML to output the information of the vendor.
+**Step 1: Add HTML to output vendor information**
+
+Add the following HTML to output the information of the vendor:
 
 ```diff
 <div class="block-title" data-section-id="{{ section.id }}" {{ block.shopify_attributes }}>
@@ -56,7 +60,9 @@ First, we add the HTML to output the information of the vendor.
 </div>
 ```
 
-Second, on the top of the file define the following variables.
+**Step 2: Define variables at the top of the file**
+
+At the top of the file, define the following Liquid variables:
 
 ```diff
 +  assign vendor_enable = block.settings.vendor_enable
@@ -66,7 +72,9 @@ Second, on the top of the file define the following variables.
 +  assign vendor_url = collection_for_vendor.url | default: vendor_url_default
 ```
 
-Third, update the settings of the block in setup/sections/block-title.liquid and setup/templates/product.block.title-json
+**Step 3: Update the block settings**
+
+Finally, update the settings of the block in `setup/sections/block-title.liquid` and `setup/templates/product.block-title.json`:
 
 ```diff
 settings: {
@@ -89,5 +97,4 @@ settings: {
 
 ```
 
-At this point, the vendor should be showing as expected; try customizing its value in the theme editor. In the following chapter, we will add tests for the above edits.
-
+At this point, the vendor information should display as expected. Try customizing its value in the theme editor. In the following chapter, we will add tests for the above edits.
