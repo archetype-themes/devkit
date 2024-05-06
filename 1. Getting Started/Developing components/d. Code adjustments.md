@@ -13,7 +13,7 @@ To begin developing theme components, you will need to open two terminals for th
 First, initiate the component development command and specify the name of the component you want to develop:
 
 ```bash
-$ shopify theme component dev block-title
+$ shopify theme component dev block-title variant-sku
 ```
 
 This command copies the sections and templates from the component's `setup/` directory to the `.explorer/` directory.
