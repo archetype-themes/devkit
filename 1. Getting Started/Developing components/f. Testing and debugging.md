@@ -6,7 +6,7 @@ To begin, let's set up an end-to-end test for your component using Playwright. C
 ```js
 import { test, expect } from '@playwright/test'
 
-test('block-price', async ({ page }) => {
+test('block-title', async ({ page }) => {
   // Given
   await page.goto('/')
   await page.getByRole('link', { name: 'block-title' }).click()
