@@ -1,4 +1,8 @@
+# Styling customizations
 
+Now, let's address the styling changes requested in the Figma file, focusing on elements like the buy buttons and making product details sticky. To achieve this, we will add some CSS to the `theme.css` file in our reference theme workspace to override the existing styling.
+
+## CSS adjustments
 Looking at the figma file there are also a few styling changes being requested, in this case we’re seeing some styling for the product page buy buttons as well as the product details needing to be a sticky element.
 
 To do this let’s add some CSS to the theme.css file in our reference theme workspace to override the existing styling:
