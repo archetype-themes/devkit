@@ -7,35 +7,30 @@ Looking at the figma file there are also a few styling changes being requested, 
 
 To do this let’s add some CSS to the theme.css file in our reference theme workspace to override the existing styling:
 
-```
+```css
 .shopify-payment-button__button {
- border-radius: var(--radi-xs, 4px);
- background: #141811;
-
+  border-radius: var(--radi-xs, 4px);
+  background: #141811;
 
  &:hover {
-   background-color: #000;
+    background-color: #000;
  }
 }
 
-
 .block-buy-buttons__submit {
- background-color: transparent;
- border-radius: var(--radi-xs, 4px);
- border: 1px solid #141811;
- color: #141811;
+  background-color: transparent;
+  border-radius: var(--radi-xs, 4px);
+  border: 1px solid #141811;
+  color: #141811;
 }
-
 
 .main-product__info {
- position: sticky;
- top: 0;
- align-self: flex-start;
- padding: 0 var(--page-width-padding) var(--size-10);
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  padding: 0 var(--page-width-padding) var(--size-10);
 }
-
 
 .button {
- cursor: pointer;
+  cursor: pointer;
 }
-```
