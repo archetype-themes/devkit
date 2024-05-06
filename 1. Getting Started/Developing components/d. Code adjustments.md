@@ -42,19 +42,13 @@ Add the following HTML to output the information of the vendor:
     {{- title -}}
   </h1>
 
-- {%- if sku_enable -%}
-+ {%- if vendor_enable or sku_enable -%}
+  {%- if vendor_enable or sku_enable -%}
     <div class="block-title__vendor-sku">
 +     {%- if vendor_enable != blank -%}
 +       <a class="block-title__vendor" href="{{ vendor_url }}">
 +         {{- vendor_enable -}}
 +       </a>
 +     {%- endif -%}
-      {%- if sku_enable -%}
-        <div class="block-title__sku">
-          {%- render 'variant-sku', variant: current_variant -%}
-        </div>
-      {%- endif -%}
     </div>
   {%- endif -%}
 </div>
@@ -65,6 +59,7 @@ Add the following HTML to output the information of the vendor:
 At the top of the file, define the following Liquid variables:
 
 ```diff
++  assign sku_enable = block.settings.sku_enable
 +  assign vendor_enable = block.settings.vendor_enable
 +  assign collection_handle = vendor_enable | handleize
 +  assign collection_for_vendor = collections[collection_handle]
@@ -77,12 +72,18 @@ At the top of the file, define the following Liquid variables:
 Finally, update the settings of the block in `setup/sections/block-title.liquid` and `setup/templates/product.block-title.json`:
 
 ```diff
-settings: {
+settings: [
 +  {
 +    "type": "inline_richtext",
 +    "id": "vendor_enable",
 +    "label": "t:actions.show_vendor"
 +  },
++  {
++    "type": "checkbox",
++    "id": "sku_enable",
++    "label": "t:actions.show_sku"
++  }
+]
 ```
 
 ```diff
@@ -97,7 +98,7 @@ settings: {
 
 ```
 
-**Step 4: Styling**
+**Step 4: Style your component**
 
 Integrate the following CSS within the `main.css` file of your component.
 
@@ -122,4 +123,27 @@ Integrate the following CSS within the `main.css` file of your component.
 }
 ```
 
-At this point, the vendor information should display as expected. Try customizing its value in the theme editor. In the following chapter, we will add tests for the above edits.
+**Step 5: Include other components**
+
+Your component can include other components, such as `variant-sku`, which is an interactive one that changes depending on the selected variant.
+
+```diff
+  {%- if vendor_enable or sku_enable -%}
+    <div class="block-title__vendor-sku">
+      {%- if vendor_enable != blank -%}
+        <a class="block-title__vendor" href="{{ vendor_url }}">
+          {{- vendor_enable -}}
+        </a>
+      {%- endif -%}
++     {%- if sku_enable -%}
++       <div class="block-title__sku">
++         {%- render 'variant-sku' -%}
++       </div>
++     {%- endif -%}
+    </div>
+  {%- endif -%}
+</div>
+```
+
+
+At this point, the sku and vendor information should display as expected. Try customizing its value in the theme editor. In the following chapter, we will add tests for the above edits.
