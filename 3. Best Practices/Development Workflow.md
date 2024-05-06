@@ -12,7 +12,7 @@ You can create a new component with the `shopify theme component generate` comma
 
 When developing a theme component, you have two separate workflows to choose from. You can either develop theme components:
 
-- **Inside the [component explorer](#)**: the `shopify theme component dev` command launches the component explorer and allows you to develop components in isolation.
+- **Inside the [component explorer](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Component%20Explorer.md)**: the `shopify theme component dev` command launches the component explorer and allows you to develop components in isolation.
 - **Inside a [Shopify theme](https://github.com/archetype-themes/reference-theme)**: the `shopify theme component dev --theme-path="../reference-theme"` command allows you to develop your components within the context of a specified theme.
 
 ## Installing components
