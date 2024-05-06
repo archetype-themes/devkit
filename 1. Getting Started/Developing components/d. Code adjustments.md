@@ -91,7 +91,8 @@ settings: [
   "title_1": {
     "type": "title",
     "settings": {
-+     "vendor_enable": "{{ product.vendor }}"
++     "vendor_enable": "{{ product.vendor }}",
++     "sku_enable": true
     }
   }
 }
