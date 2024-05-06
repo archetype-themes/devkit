@@ -18,3 +18,5 @@ This document provides a step-by-step guide on developing Shopify themes using c
 6. **Committing Changes, Review, and Deployment:** Details on handling changes using GitHub, setting up branch previews for team review, and deploying the final theme to production are covered here.
 
 By the end of this document, you will know how to integrate and customize components for Shopify theme development. You'll manage a development environment, adjust components to fit design specs, and implement best practices for robust themes. You'll also handle GitHub version control, review processes, and deploy your theme to a live Shopify store, ensuring your development skills meet current e-commerce standards.
+
+The “Getting started” branches in our repositories ([getting-started-theme](https://github.com/archetype-themes/reference-theme/tree/getting-started-theme) in `reference-theme` and [getting-started-components](https://github.com/archetype-themes/reference-components/tree/getting-started-components) in `reference-components`) are designed to guide you through the initial setup and development of a new theme using our components.
