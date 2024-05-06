@@ -4,7 +4,7 @@
 
 A component isn't truly encapsulated unless it can be loaded and worked on in isolation, which is exactly what the Component Explorer aims to provide!
 
-The following steps outline a straightforward process for developing a component in isolation, such as `components/block-title`.
+The following steps outline a straightforward process for developing a component in isolation, such as `components/block-title` and `components/variant-sku`.
 
 To begin developing theme components, you will need to open two terminals for the following processes:
 
