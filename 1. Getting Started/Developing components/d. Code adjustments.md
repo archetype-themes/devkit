@@ -42,15 +42,15 @@ Add the following HTML to output the information of the vendor:
     {{- title -}}
   </h1>
 
-  {%- if vendor_enable or sku_enable -%}
-    <div class="block-title__vendor-sku">
++ {%- if vendor_enable or sku_enable -%}
++   <div class="block-title__vendor-sku">
 +     {%- if vendor_enable != blank -%}
 +       <a class="block-title__vendor" href="{{ vendor_url }}">
 +         {{- vendor_enable -}}
 +       </a>
 +     {%- endif -%}
-    </div>
-  {%- endif -%}
++   </div>
++ {%- endif -%}
 </div>
 ```
 
