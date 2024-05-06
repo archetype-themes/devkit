@@ -8,7 +8,7 @@ _^^ Link to introductory video + show youtube thumbnail_
 >
 > **[Sign up for Devkit preview email updates](https://dev.archetypethemes.co)**
 
-Welcome to Archetype Developer Kit! A public, community-backed standard for advanced theme design and development!
+Welcome to Archetype Developer Kit! A public, community-backed standard for advanced theme design and development.
 
 - 🏘️ **Build together instead of in silos** - Stop building and maintaining your own tooling. We all benefit from collaborating on **how** to build themes. Save the competition for **what** we build.
 - 😇 **Simple and vanilla** - Stop working with compiled theme code. Stay as close to the platforms as possible. Devkit keeps things simple with minimal tooling magic. No bundlers. No compiled code. Use modern browsers to their full capabilities.
