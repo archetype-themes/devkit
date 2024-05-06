@@ -97,4 +97,29 @@ settings: {
 
 ```
 
+**Step 4: Styling**
+
+Integrate the following CSS within the `main.css` file of your component.
+
+```css
+@import '../../styles/helpers/typography.css';
+
+.block-title__heading {
+  &.h2 {
+    margin-bottom: var(--size-2);
+    font-size: 24px;
+
+    @media (--medium-up) {
+      font-size: 32px;
+    }
+  }
+}
+
+.block-title__sku,
+.block-title__vendor {
+  display: inline-block;
+  margin-right: var(--size-5);
+}
+```
+
 At this point, the vendor information should display as expected. Try customizing its value in the theme editor. In the following chapter, we will add tests for the above edits.
