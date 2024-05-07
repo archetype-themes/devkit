@@ -1,6 +1,8 @@
 # Testing and debugging
 
-Following up on the enhancements made to the `block-title` component in the previous chapter on [Code Adjustments](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Developing%20components/d.%20Code%20adjustments.md), it's important to verify its functionality and reliability through effective testing. This section guides you through end-to-end testing using [Playwright](https://playwright.dev/), a powerful tool for browser automation.
+Following up on the enhancements made to the `block-title` component in the previous chapter on [Code Adjustments](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Developing%20components/d.%20Code%20adjustments.md), it's important to verify its functionality and reliability through effective testing. 
+
+This section guides you through writing and running end-to-end testing using [Playwright](https://playwright.dev/), a powerful tool for browser automation.
 
 ## Setting up end-to-end testing with Playwright
 
@@ -36,7 +38,7 @@ test('block-title', async ({ page }) => {
 - **Data retrieval**: It retrieves product details from the page, extracting them into a JSON object which includes attributes like title, vendor, and SKU.
 - **Verification**: The test ensures that the `block-title` element displays the correct title from the data retrieved. It also checks for the presence of vendor and SKU information if they are available.
 
-### Running the tests
+## Running the tests
 
 Execute your tests with the following command:
 
