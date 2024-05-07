@@ -34,7 +34,7 @@ Devkit is a Github-centric solution. If we can do it in Github, then we will.
 Here's a list of repos and what they offer:
 
 - [archetype-themes/devkit](https://github.com/archetype-themes/devkit) - This repo serves to act as the central community hub + documentation for all things devkit
-- [archetype-themes/plugin-theme-component](https://github.com/archetype-themes/plugin-theme-component) - A Shopify CLI Plugin
+- [archetype-themes/plugin-theme-component](https://github.com/archetype-themes/plugin-theme-component) - A Shopify CLI Plugin that supports the theme component dev experience
 - [archetype-themes/reference-theme](https://github.com/archetype-themes/reference-theme) - A theme built with devkit consisting of an complete buyer purchase flow
 - [archetype-themes/reference-components](https://github.com/archetype-themes/reference-components) - The components that power the reference theme
 - [archetype-themes/locales](https://github.com/archetype-themes/locales) - Shared locales used across all theme projects
