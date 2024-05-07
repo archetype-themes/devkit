@@ -25,3 +25,7 @@ git checkout getting-started-components
 
 > [!NOTE]
 >We're using the Shopify Github integration to automatically deploy changes to the development store. This allows us to preview changes in real-time. Learn more about [Shopify's Github integration](https://shopify.dev/themes/tools/github-integration).
+
+---
+
+### [> Next Step: Installing updated components](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Developing%20themes%20with%20components/c.%20Setting%20up%20the%20development%20environment.md)

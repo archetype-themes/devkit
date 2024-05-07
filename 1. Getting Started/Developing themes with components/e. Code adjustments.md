@@ -78,3 +78,7 @@ assign sku_enable = block.settings.sku_enable
 - **Preview and adjust**: Visit the product template in the development store, click into the title block, and adjust the settings to hide/show the vendor and SKU.
 
 This concludes our code adjustments. By following these steps, you ensure that your theme components are not only functional but also aligned with the latest design specifications and user requirements.
+
+---
+
+### [> Next Step: Theme customizations](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Developing%20themes%20with%20components/f.%20Theme%20customizations.md)

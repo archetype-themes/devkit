@@ -21,4 +21,4 @@ By the end of this document, you will know how to integrate and customize compon
 
 ---
 
-### [> Next Step: Reviewing design specifications](b. Reviewing design specifications.md)
+### [> Next Step: Reviewing design specifications](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Developing%20themes%20with%20components/b.%20Reviewing%20Design%20Specifications.md)
