@@ -2,7 +2,9 @@
 
 Following up on the enhancements made to the `block-title` component in the previous chapter on [Code Adjustments](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Developing%20components/d.%20Code%20adjustments.md), it's important to verify its functionality and reliability through effective testing. This section guides you through end-to-end testing using [Playwright](https://playwright.dev/), a powerful tool for browser automation.
 
-To begin, let's set up an end-to-end test for your component using Playwright. Create a test file named `block-title.spec.js` in the `test` directory of your component, and add the following code:
+## Setting up end-to-end testing with Playwright
+
+To begin, set up an end-to-end test for your `block-title` component. Create a test file named `block-title.spec.js` in the `test/` directory of your component and add the following code:
 ```js
 import { test, expect } from '@playwright/test'
 
