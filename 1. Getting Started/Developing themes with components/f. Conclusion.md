@@ -4,7 +4,7 @@ We hope you enjoyed our getting started guide on "Developing Themes with Compone
 
 Visit our [Architecture](https://github.com/archetype-themes/devkit/tree/main/2.%20Architecture) docs to learn more about:
 
-- [Component Parameters](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Component%20Liquid.md) and how they can be used to customize components
+- [Component Liquid](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Component%20Liquid.md) and how we structure our Liquid for a component
 - [Design Tokens](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Design%20Tokens.md) and how they can be used to create a consistent design system
 - [Component Slots](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Component%20Slots.md) and how they can be used to create flexible components
 - [Component Explorer](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Component%20Explorer.md) to visualize and interact with components in isolation
