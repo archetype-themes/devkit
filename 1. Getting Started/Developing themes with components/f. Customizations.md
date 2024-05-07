@@ -9,7 +9,7 @@ To do this let’s add some CSS to the `theme.css` file in our reference theme w
 
 ```css
 .shopify-payment-button__button {
-  border-radius: var(--radi-xs, 4px);
+  border-radius: var(--radius-xs, 4px);
   background: #141811;
 
  &:hover {
@@ -19,7 +19,7 @@ To do this let’s add some CSS to the `theme.css` file in our reference theme w
 
 .block-buy-buttons__submit {
   background-color: transparent;
-  border-radius: var(--radi-xs, 4px);
+  border-radius: var(--radius-xs, 4px);
   border: 1px solid #141811;
   color: #141811;
 }
