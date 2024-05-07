@@ -34,3 +34,4 @@ To do this let’s add some CSS to the `theme.css` file in our reference theme w
 .button {
   cursor: pointer;
 }
+```
