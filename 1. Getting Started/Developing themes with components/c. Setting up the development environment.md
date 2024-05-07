@@ -1,4 +1,4 @@
-# Setting Up Your Development Environment
+# Setting up your development environment
 
 ### 1. Clone and setup repos locally
 
