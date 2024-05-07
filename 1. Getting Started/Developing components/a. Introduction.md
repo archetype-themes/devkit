@@ -1,6 +1,6 @@
 # Developing Components
 
-A theme component is a discrete unit of code that typically includes HTML (or Liquid), CSS, and possibly JavaScript, designed to implement a particular feature or style element within a Shopify theme.
+A theme component is a discrete unit of code that typically includes HTML (or Liquid), CSS, and possibly JavaScript, designed to implement a particular feature within a Shopify theme.
 
 To learn more, check out [Intro to Component Architecture]()
 
