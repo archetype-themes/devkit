@@ -4,7 +4,7 @@
 _^^ Link to introductory video + show youtube thumbnail_
 
 > [!NOTE]
-> **This initial preview of the Archetype Devkit is a call to action for the community.** We invite you to bring your insights and experiences to help shape our collective approach to theme development. Your feedback is crucial as we refine our methodologies and collaborate to establish best practices that benefit us all, paving the way to our grand launch in September 2024. Check out the the [Contributing](#contributing) section for more details!
+> **This initial preview of the Archetype Devkit is a call to action for the community.** We invite you to bring your insights and experiences to help shape our collective approach to theme development. Your feedback is crucial as we refine our methodologies and collaborate to establish best practices that benefit us all. Check out the the [Contributing](#contributing) section for more details!
 >
 > **[Sign up for Devkit preview email updates](https://dev.archetypethemes.co)**
 
