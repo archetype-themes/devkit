@@ -36,6 +36,8 @@ In this test:
 * We get the `block-title` element.
 * We verify the expected behavior of the component, ensuring specific text is present.
 
+### Running the tests
+
 Execute your tests with the following command:
 
 ```bash
