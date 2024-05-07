@@ -44,4 +44,11 @@ $ npm run test
 
 This command will run all the tests defined in your project, providing feedback on each test's success or failure.
 
-By conducting tests like these, you can identify and resolve potential issues early in the development process, ensuring your component functions reliably in various scenarios.
+## Benefits of testing
+
+By conducting tests like these, you can:
+- **Detect issues early**: Identify and resolve potential problems early in the development cycle.
+- **Ensure reliability**: Confirm that your component performs as expected in various scenarios.
+- **Improve code quality**: Enhance the overall quality of your components through thorough testing.
+
+Testing with Playwright not only confirms that your components meet your team's design specifications but also ensures their robustness and functionality all in one place.
