@@ -1,4 +1,4 @@
-## Introduction to Components
+## Intro to Theme Components
 A theme component in the context of Shopify theme development refers to a modular, reusable piece of code that can be independently developed, maintained, and integrated into different themes. These components encapsulate specific functionality or design elements, making them key building blocks for constructing Shopify themes. 
 
 Some key characteristics of theme components include:
