@@ -6,7 +6,7 @@ Visit our [Architecture](https://github.com/archetype-themes/devkit/tree/main/2.
 
 - [Component Liquid](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Component%20Liquid.md) and how we structure our Liquid for a component
 - [Design Tokens](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Design%20Tokens.md) and how they can be used to create a consistent design system
-- [Component Slots](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Component%20Slots.md) and how they can be used to create flexible components
+- [Component Slots](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Component%20Slots.md) and how they can be used to create modular components by inserting content into slots
 - [Component Explorer](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Component%20Explorer.md) to visualize and interact with components in isolation
 - [Testing Components](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Component%20Tests.md) to ensure they're working as expected resulting in less time spent on fixing theme bugs
 
