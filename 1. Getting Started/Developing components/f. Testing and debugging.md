@@ -30,11 +30,11 @@ test('block-title', async ({ page }) => {
 });
 ```
 
-In this test:
+### Understanding the test
 
-* We navigate to the page where the component is rendered and get some product details.
-* We get the `block-title` element.
-* We verify the expected behavior of the component, ensuring specific text is present.
+- **Navigation and interaction**: The test starts by navigating to the homepage and interacting with the `block-title` link.
+- **Data retrieval**: It retrieves product details from the page, extracting them into a JSON object which includes attributes like title, vendor, and SKU.
+- **Verification**: The test ensures that the `block-title` element displays the correct title from the data retrieved. It also checks for the presence of vendor and SKU information if they are available.
 
 ### Running the tests
 
