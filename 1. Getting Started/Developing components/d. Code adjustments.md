@@ -146,5 +146,8 @@ Your component can include other components, such as `variant-sku`, which is an 
 </div>
 ```
 
-
 At this point, the sku and vendor information should display as expected. Try customizing its value in the theme editor. In the following chapter, we will add tests for the above edits.
+
+---
+
+### [> Next Step: Writing tests](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Developing%20components/e.%20Writing%20tests.md)

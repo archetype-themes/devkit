@@ -54,3 +54,7 @@ By conducting tests like these, you can:
 - **Improve code quality**: Enhance the overall quality of your components through thorough testing.
 
 Testing with Playwright not only confirms that your components meet your team's design specifications but also ensures their robustness and functionality all in one place.
+
+---
+
+### [> Next Step: Documentation updates](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Developing%20components/f.%20Documentation%20updates.md)

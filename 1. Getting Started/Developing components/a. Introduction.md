@@ -2,7 +2,7 @@
 
 A theme component is a discrete unit of code that typically includes HTML (or Liquid), CSS, and possibly JavaScript, designed to implement a particular feature within a Shopify theme.
 
-To learn more, check out [Intro to Component Architecture]()
+To learn more, check out [Intro to Component Architecture](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Theme%20Components/Introduction.md)
 
 ## Overview
 
@@ -23,3 +23,7 @@ This document guides you through the steps required to make some enhancements to
 7. **Committing Changes and Review:** Lastly, we’ll cover how to commit your changes to the version control system, prepare for code reviews, and merge enhancements back into the project repository.
 
 By the end of this document, you'll have a thorough understanding of how to effectively enhance an existing theme component, ensuring it meets both new and existing requirements while adhering to the Archetype Developer Kit's standards for quality and maintainability.
+
+---
+
+### [> Next Step: Reviewing Design Specifications](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Developing%20components/b.%20Reviewing%20Design%20Specifications.md)

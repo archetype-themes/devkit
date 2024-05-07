@@ -1,1 +1,0 @@
-# Incorperating best practices
