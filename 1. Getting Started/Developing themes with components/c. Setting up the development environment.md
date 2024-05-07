@@ -33,4 +33,4 @@ git checkout getting-started-components
 
 ---
 
-### [> Next Step: Installing updated components](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Developing%20themes%20with%20components/c.%20Setting%20up%20the%20development%20environment.md)
+### [> Next Step: Installing updated components](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Developing%20themes%20with%20components/d.%20Installing%20updated%20components.md)
