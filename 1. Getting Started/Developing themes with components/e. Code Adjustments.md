@@ -69,7 +69,7 @@ assign sku_enable = block.settings.sku_enable
 ```
 
 > [!NOTE]
-> This code includes a reference to the 'variant-sku' component, which is part of the reference-components.
+> This code includes a reference to the [`variant-sku`](https://github.com/archetype-themes/reference-components/blob/main/components/variant-sku) component.
 
 ## Committing and deploying changes
 
