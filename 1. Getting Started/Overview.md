@@ -47,5 +47,5 @@ Our Figma file powers our component and theme design handoffs for developers.
 
 ---
 
-### [> Get started with developing components >](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Developing%20components/a.%20Introduction.md)
+### [> Get started with developing components](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Developing%20components/a.%20Introduction.md)
 
