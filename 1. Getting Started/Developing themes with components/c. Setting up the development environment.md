@@ -19,7 +19,7 @@ git checkout getting-started-components
 ### 2. Setup your development store
   - You'll need a development store to preview your code as you work. Use one that you already have or go ahead and create a new one!
 
-### 3. Setup the Github integration with your shop.
+### 3. Setup the Github integration with your shop
   - Open the Shopify admin and navigate to `Online Store` > `Themes`.
   - Click on the `Add theme` button and select `Connect from Github`.
   - Follow the prompts to connect your Github account to the development store.
