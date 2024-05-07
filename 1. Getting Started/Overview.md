@@ -45,9 +45,7 @@ Our Figma file powers our component and theme design handoffs for developers.
 [Access the Figma file by signing up to Devkit updates](https://link.archetypethemes.co/GhCsDk)
 
 
-## How to Use This Guide 
+---
 
-This guide is here to walk you through all the pieces of Devkit so that you can effectively contribute to discussions and start building your own theme components!
-
-### [🚀 Get started developing components >]()
+### [> Get started with developing components >](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Developing%20components/a.%20Introduction.md)
 
