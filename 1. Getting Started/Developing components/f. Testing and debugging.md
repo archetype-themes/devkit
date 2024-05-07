@@ -42,6 +42,6 @@ Execute your tests with the following command:
 $ npm run test
 ```
 
-This command runs all tests defined in your project, providing feedback on each test's success or failure.
+This command will run all the tests defined in your project, providing feedback on each test's success or failure.
 
 By conducting tests like these, you can identify and resolve potential issues early in the development process, ensuring your component functions reliably in various scenarios.
