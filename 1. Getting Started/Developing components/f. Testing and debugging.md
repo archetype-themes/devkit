@@ -9,18 +9,25 @@ To begin, set up an end-to-end test for your `block-title` component. Create a t
 import { test, expect } from '@playwright/test'
 
 test('block-title', async ({ page }) => {
-  // Given
-  await page.goto('/')
-  await page.getByRole('link', { name: 'block-title' }).click()
-  let data = JSON.parse(await page.getByTestId('product-json').innerText())
-  // When
-  let blockTitle = page.locator('.block-title').last()
-  // Then
-  await expect(blockTitle).toContainText(data.title)
-  if (data.vendor) await expect(blockTitle).toContainText(data.vendor)
-  if (data.selectedOrFirstAvailableVariant.sku)
-    await expect(blockTitle).toContainText(data.selectedOrFirstAvailableVariant.sku)
-})
+  // Given: Navigate to the homepage and click on the block-title link
+  await page.goto('/');
+  await page.getByRole('link', { name: 'block-title' }).click();
+
+  // Retrieve product data from the page
+  let data = JSON.parse(await page.getByTestId('product-json').innerText());
+
+  // When: Locate the last block-title element
+  let blockTitle = page.locator('.block-title').last();
+
+  // Then: Verify the block-title contains expected text elements
+  await expect(blockTitle).toContainText(data.title);
+  if (data.vendor) {
+    await expect(blockTitle).toContainText(data.vendor);
+  }
+  if (data.selectedOrFirstAvailableVariant.sku) {
+    await expect(blockTitle).toContainText(data.selectedOrFirstAvailableVariant.sku);
+  }
+});
 ```
 
 In this test:
