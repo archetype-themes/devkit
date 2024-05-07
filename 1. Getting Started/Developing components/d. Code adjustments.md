@@ -1,10 +1,10 @@
 # Code Adjustments
 
-## Develop your component in the explorer
-
 A component isn't truly encapsulated unless it can be loaded and worked on in isolation, which is exactly what the Component Explorer aims to provide!
 
 The following steps outline a straightforward process for developing a component in isolation, such as `components/block-title` and `components/variant-sku`.
+
+## Develop your components in the component explorer
 
 To begin developing theme components, you will need to open two terminals for the following processes:
 
@@ -28,7 +28,7 @@ shopify theme dev --path .explorer
 
 This step pushes the files of the Component Explorer to Shopify and provides URLs to preview and customize your component.
 
-### Editing the component
+## Update your component
 
 For this example, we will demonstrate how to show the vendor of a product from a given text input with dynamic sources support.
 
