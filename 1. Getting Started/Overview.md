@@ -1,4 +1,4 @@
-# Getting Started
+# Getting started with Devkit
 
 Welcome to the Archetype Devkit Public Preview! 
 
