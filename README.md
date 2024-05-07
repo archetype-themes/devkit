@@ -18,7 +18,7 @@ Welcome to Archetype Devkit! A public, community-backed standard for advanced th
 
 ## Getting Started
 
-Check out the [Getting Started Guide](1.%20Getting%20Started/a.%20Overview.md) for a full walkthrough of the Devkit Theme Component Development + Theme Development experiences.
+Check out the [Getting Started Guide](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Overview.md) for a full walkthrough of the Devkit Theme Component Development + Theme Development experiences.
 
 ## Devkit Repos
 
