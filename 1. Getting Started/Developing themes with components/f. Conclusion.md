@@ -8,6 +8,6 @@ Visit our [Architecture](https://github.com/archetype-themes/devkit/tree/main/2.
 - [Design Tokens](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Design%20Tokens.md) and how they can be used to create a consistent design system
 - [Component Slots](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Component%20Slots.md) and how they can be used to create modular components by inserting content into slots
 - [Component Explorer](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Component%20Explorer.md) to visualize, develop and test components in an isolated environment
-- [Testing Components](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Component%20Tests.md) to ensure they're working as expected resulting in less time spent on fixing theme bugs
+- [Testing Components](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Component%20Tests.md) to ensure that components function correctly, minimizing the time spent troubleshooting and fixing bugs in the theme
 
 We welcome you to join our community! Your insights and [discussions](https://github.com/archetype-themes/devkit/discussions) play a crucial role in our continuous improvement. We encourage you to start discussions, ask questions, and provide feedback on our component approach.
