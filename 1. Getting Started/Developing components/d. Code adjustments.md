@@ -208,7 +208,7 @@ And the values of those settings inside the `setup/templates/product.block-title
 }
 ```
 
-**Step 4: Style your component**
+**Step 6: Style your component**
 
 Add the following CSS to the bottom of the `main.css` file of your component to make sure there is some space between the SKU and vendor elements:
 
