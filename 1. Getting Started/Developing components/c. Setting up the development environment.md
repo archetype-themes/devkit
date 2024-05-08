@@ -20,6 +20,18 @@ We're going to be using these components as part of this guide, so you'll need t
 2. [Install the npm dependencies](https://docs.npmjs.com/cli/v10/commands/npm-install) with `npm i`
 3. Checkout the `getting-started` branch with `git checkout getting-started-components`
 
+### 4. Create your .env with your dev store details
+
+To streamline Shopify CLI commands and other future steps, make a copy of the `.env.example` file and name it `.env`. Most importantly for this guide, make sure to update the `SHOPIFY_FLAG_STORE` and `SHOPIFY_STORE_PASSWORD` values:
+
+```
+SHOPIFY_FLAG_STORE=your-dev-store.myshopify.com
+SHOPIFY_STORE_PASSWORD=your-password
+```
+
+>[!WARNING]
+> Never commit your .env to version control since it can contain sensitive information
+
 ---
 
 ### [> Next Step: Code adjustments](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Developing%20components/d.%20Code%20adjustments.md)
