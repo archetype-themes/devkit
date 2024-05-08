@@ -18,7 +18,7 @@ We're going to be using these components as part of this guide, so you'll need t
 
 1. [Clone the repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) to your dev machine, e.g. `git clone https://github.com/archetype-themes/reference-components.git`
 2. [Install the npm dependencies](https://docs.npmjs.com/cli/v10/commands/npm-install) with `npm i`
-3. Checkout the `getting-started` branch with `git checkout -b getting-started-components`
+3. Checkout the `getting-started` branch with `git checkout getting-started-components`
 
 ---
 
