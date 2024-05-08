@@ -17,8 +17,9 @@ To best illustrate our vision for components and facilate discussion, we're open
 We're going to be using these components as part of this guide, so you'll need to:
 
 1. [Clone the repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) to your dev machine, e.g. `git clone https://github.com/archetype-themes/reference-components.git`
-2. [Install the npm dependencies](https://docs.npmjs.com/cli/v10/commands/npm-install) with `npm i`
-3. Checkout the `getting-started-components` branch with `git checkout getting-started-components`
+2. Switch to the reference-components directory with `cd reference-components`
+3. [Install the npm dependencies](https://docs.npmjs.com/cli/v10/commands/npm-install) with `npm i`
+4. Checkout the `getting-started-components` branch with `git checkout getting-started-components`
 
 ### 4. Create your .env with your dev store details
 
