@@ -4,7 +4,7 @@
 
 We've made it easy to incorporate theme components into your development workflow by building a Shopify CLI plugin that adds a suite of commands accesible via `shopify theme component`.
 
-See the [archetype-themes/plugin-theme-component](https://github.com/archetype-themes/plugin-theme-component) README for setup details.
+See the [archetype-themes/plugin-theme-component](https://github.com/archetype-themes/plugin-theme-component?tab=readme-ov-file#getting-started) README for setup details.
 
 ### 2. Setup your development store
 
