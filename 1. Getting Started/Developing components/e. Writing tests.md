@@ -40,6 +40,13 @@ test('block-title', async ({ page }) => {
 
 ## Running the tests
 
+First make sure your `.env` file has the values needed to run your tests. You can get the `[live]` theme id for `SHOPIFY_CLI_THEME_ID` by calling `shopify theme list`:
+
+```
+SHOPIFY_CLI_THEME_ID=123792457878
+SHOPIFY_STORE_PASSWORD=your-password
+```
+
 Execute your tests with the following command:
 
 ```bash
