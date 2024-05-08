@@ -16,8 +16,6 @@ This document guides you through the steps required to make some enhancements to
 
 4. **Writing tests:** After coding, we’ll demonstrate how to test the component across various scenarios and devices, including debugging techniques to resolve any issues that arise.
 
-5. **Committing changes and review:** Lastly, we’ll cover how to commit your changes to the version control system, prepare for code reviews, and merge enhancements back into the project repository.
-
 By the end of this document, you'll have a thorough understanding of how to effectively enhance an existing theme component, ensuring it meets both new and existing requirements while adhering to the Archetype Devekit's standards for quality and maintainability.
 
 ---
