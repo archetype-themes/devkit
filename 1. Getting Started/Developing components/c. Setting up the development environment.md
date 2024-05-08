@@ -2,7 +2,7 @@
 
 ### 1. Setup Shopify CLI and the Theme Component Plugin
 
-We've made it easy incorporate theme components into your development workflow by building a Shopify CLI plugin that adds suite of commands accesible via `shopify theme component`.
+We've made it easy to incorporate theme components into your development workflow by building a Shopify CLI plugin that adds a suite of commands accesible via `shopify theme component`.
 
 See the [archetype-themes/plugin-theme-component](https://github.com/archetype-themes/plugin-theme-component) README for setup details.
 
