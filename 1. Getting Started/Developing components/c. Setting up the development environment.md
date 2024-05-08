@@ -26,7 +26,6 @@ To streamline Shopify CLI commands and other future steps, make a copy of the `.
 
 ```
 SHOPIFY_FLAG_STORE=your-dev-store.myshopify.com
-SHOPIFY_STORE_PASSWORD=your-password
 ```
 
 >[!WARNING]
