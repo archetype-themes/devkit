@@ -1,4 +1,4 @@
-# Reviewing design specifications in 
+# Reviewing design specifications
 
 >[!TIP]
 > The Figma file that accompanies this preview and getting started guide are available for download.
