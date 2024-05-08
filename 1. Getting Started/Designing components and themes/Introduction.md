@@ -2,7 +2,7 @@
 
 >[!TIP]
 > The Figma file that accompanies this preview and getting started guide are available for download.
-> To open the file, simply drag it onto your dashboard in the Figma desktop app
+> To open the file, simply drag it onto your dashboard in the Figma desktop app. 
 
 The theme components and design system Figma file is the designer companion piece to the Archetype Devkit, providing a collection of components that together, create a basic online purchase flow.
 
