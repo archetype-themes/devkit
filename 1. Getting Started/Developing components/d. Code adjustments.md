@@ -37,7 +37,7 @@ Click through to preview the `block-title` component
 
 ## Update your component
 
-For this example, we will demonstrate how to show the vendor of a product from a given text input with dynamic sources support.
+For this example, we will demonstrate how to show the vendor of a product.
 
 **Step 1: Add HTML to output vendor information**
 
@@ -51,9 +51,9 @@ Replace the main HTML contents of the `components/block-title/block-title.liquid
 
  {%- if vendor_enable or sku_enable -%}
    <div class="block-title__vendor-sku">
-     {%- if vendor_enable != blank -%}
+     {%- if vendor_enable -%}
        <a class="block-title__vendor" href="{{ vendor_url }}">
-         {{- vendor_enable -}}
+         {{- product.vendor -}}
        </a>
      {%- endif -%}
    </div>
@@ -68,9 +68,9 @@ Your component can include other components, such as `variant-sku`, which is an 
 ```liquid
   {%- if vendor_enable or sku_enable -%}
     <div class="block-title__vendor-sku">
-      {%- if vendor_enable != blank -%}
+      {%- if vendor_enable -%}
         <a class="block-title__vendor" href="{{ vendor_url }}">
-          {{- vendor_enable -}}
+          {{- product.vendor -}}
         </a>
       {%- endif -%}
       {%- if sku_enable -%}
