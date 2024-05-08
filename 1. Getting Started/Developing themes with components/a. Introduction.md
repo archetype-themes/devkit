@@ -15,7 +15,6 @@ This document provides a step-by-step guide on developing Shopify themes using c
 - **Installing updated components:** We'll demonstrate how easy it is to leverage updates to the component library in your theme by running a simple install command.
 - **Code adjustments:** This phase includes updating components to support new design features and integrating locales into the theme editor settings.
 - **Theme customizations:** This phase involves adding a layer of customization to the components once they're a part of the theme. We can accomplish this through custom CSS and CSS variable overrides in the theme's layout files. In our example, we'll be adding some custom CSS to the theme.
-- **Committing changes and review:** Details on making changes using GitHub and setting up branch previews for team review.
 
 By the end of this document, you will know how to integrate and customize components for Shopify theme development. You'll manage a development environment, adjust components to fit design specs, and implement best practices for robust themes. You'll also handle GitHub version control, review processes, and deploy your theme to a live Shopify store, ensuring your development skills meet current e-commerce standards.
 
