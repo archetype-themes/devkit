@@ -11,3 +11,13 @@ Some key characteristics of theme components include:
 - **Maintainability:** With components, updates and bug fixes can be applied to the individual components without impacting the entire theme. This localized maintenance makes managing and upgrading themes more manageable and less risky.
 
 Examples of components can be found in the [archetype-themes/reference-components](https://github.com/archetype-themes/reference-components) repo.
+
+Read into more details about theme components:
+- [Component File Structure](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Theme%20Components/File%20Structure.md)
+- [Component Types](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Theme%20Components/Types.md)
+- [Component Liquid Files](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Theme%20Components/Liquid.md)
+- [Component Styles](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Theme%20Components/Styles.md)
+- [Component Locales](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Theme%20Components/Locales.md)
+- [Component Asset Files](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Theme%20Components/Assets.md)
+- [Component Import Maps](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Theme%20Components/Import%20Maps.md)
+- [Component Tests](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Theme%20Components/Tests.md)
