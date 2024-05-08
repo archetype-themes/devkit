@@ -26,7 +26,7 @@ The benefits of using the kit for Shopify theme design and development include:
 
 ## What’s included in the public preview
 
-The Devkit preview is everything that is needed for Archetype to effectively communicate our vision of how to build themes + bootstrap a thriving community of professionals who share the desire to build success businesses that ship Shopify high quality theme projects to merchants.
+The Devkit preview is everything that is needed for Archetype to effectively communicate our vision of how to build themes + bootstrap a thriving community of professionals who share the desire to build successful businesses that ship high quality Shopify theme projects to merchants.
 
 ### Github Repos
 Devkit is a Github-centric solution. If we can do it in Github, then we will. 
