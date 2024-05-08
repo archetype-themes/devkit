@@ -5,9 +5,6 @@ The [Component Explorer](https://github.com/archetype-themes/devkit/blob/main/2.
 > [!NOTE]
 > This testing environment is still a work in progress. The long-term vision is to develop a more robust version of what we currently offer. We aim to demonstrate that enhanced testing capabilities are possible and we're committed to delivering a long-awaited feature to the Shopify theme developer community.
 
-![2023-11-09 15-25-05](https://github.com/archetype-themes/explorer/assets/4837696/e23acff7-7c28-45e4-923b-5478881013f2)
-_^^ Replace with Playwright demo_
-
 ## Getting started
 
 ### Prerequisites
@@ -35,9 +32,6 @@ For writing straightforward tests, use the Playwright Inspector by running:
 ```bash
 npx playwright codegen
 ```
-
-![img](#)
-\_^^ Replace with Playwright Codegen
 
 This tool lets you interact with your components and automatically generates tests based on your actions. You can then copy and paste these tests into your spec file.
 

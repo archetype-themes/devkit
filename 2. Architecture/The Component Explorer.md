@@ -8,9 +8,6 @@ The Component Explorer becomes the default environment when you run the followin
 shopify theme component dev
 ```
 
-![2023-11-09 15-25-05](https://github.com/archetype-themes/explorer/assets/4837696/e23acff7-7c28-45e4-923b-5478881013f2)
-_^^ Replace with more recent demo_
-
 ## Developing components in the Component Explorer
 
 To work with theme components inside of the Component Explorer, you must properly set up a component and ensure that its `setup/` folder is included.
