@@ -29,6 +29,8 @@ To streamline Shopify CLI commands and other future steps, make a copy of the `.
 SHOPIFY_FLAG_STORE=your-dev-store.myshopify.com
 ```
 
+You can use the [Theme Access app](https://shopify.dev/docs/themes/tools/theme-access#how-the-theme-access-app-works) to get your Shopify store password.
+
 >[!WARNING]
 > Never commit your .env to version control since it can contain sensitive information
 
