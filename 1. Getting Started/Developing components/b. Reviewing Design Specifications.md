@@ -5,9 +5,9 @@
 >
 > [Access the Figma file by signing up to Devkit updates](https://link.archetypethemes.co/GhCsDk)
 
-### Figma - Account setup
+### Figma - Application Download and Account setup
 
-To start, you'll need to sign into Figma with your existing account or sign up for a new account. It is best to acess the files for handoff using Figma's Dev Mode.
+To start, if you don't already have Figma downloaded on your system you'll need to [download the application](https://www.figma.com/downloads/) and install it. Then you'll need to sign into Figma with your existing account or sign up for a new account. Using the `Import` button you can then import the Figma file we sent you via email. It is best to acess the files for handoff using Figma's Dev Mode.
 
 [Learn more about the Dev Mode in Figma](https://help.figma.com/hc/en-us/articles/15023124644247-Guide-to-Dev-Mode)
 
