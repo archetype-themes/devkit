@@ -66,4 +66,4 @@ Testing with Playwright not only confirms that your components meet your team's 
 
 ---
 
-### [> Next Step: Commiting changes and review](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Developing%20components/g.%20Committing%20changes%20and%20review.md)
+### [> Next Step: Conclusion](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Developing%20components/f.%20Conclusion.md)

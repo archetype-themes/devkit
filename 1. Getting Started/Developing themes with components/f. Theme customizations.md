@@ -38,4 +38,4 @@ To do this let’s add some CSS to the `theme.css` file in our reference theme w
 
 ---
 
-### [> Next Step: Committing changes and review](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Developing%20themes%20with%20components/g.%20Committing%20changes%20and%20review.md)
+### [> Next Step: Conclusion](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Developing%20themes%20with%20components/g.%20Conclusion.md)
