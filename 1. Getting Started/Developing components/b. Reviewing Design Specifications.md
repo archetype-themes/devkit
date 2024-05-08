@@ -1,5 +1,10 @@
 # Reviewing design specifications
 
+>[!TIP]
+> The Figma file that accompanies this preview and getting started guide are available for download.
+>
+> [Access the Figma file by signing up to Devkit updates](https://link.archetypethemes.co/GhCsDk)
+
 ### Figma - Component playground preview in Dev Mode
 
 First, you need to see if you have access to Dev Mode in the file you’re inspecting by toggling to Dev Mode at the top of the file or by using the keyboard shortcut Shift D. If you don't have access to Dev Mode, you’ll be inspecting in Design Mode. You can select if you have can edit or can view access to see how to inspect.
