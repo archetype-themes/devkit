@@ -4,13 +4,13 @@
 
 The “Getting started” branches in our repositories ([getting-started-theme](https://github.com/archetype-themes/reference-theme/tree/getting-started-theme) in `reference-theme` and [getting-started-components](https://github.com/archetype-themes/reference-components/tree/getting-started-components) in `reference-components`) are designed to guide you through the initial setup and development of a new theme using our components.
 
-  - Clone the `reference-theme` [repository](https://github.com/archetype-themes/reference-components) and switch to the `getting-started-theme` branch.
+  - Clone the `reference-theme` [repository](https://github.com/archetype-themes/reference-theme) and switch to the `getting-started-theme` branch.
 ```bash
 git clone https://github.com/path/to/reference-theme.git
 cd reference-theme
 git checkout getting-started-theme
 ```
-  - Similarly, clone the `reference-components` [repository](https://github.com/archetype-themes/reference-theme) and switch to the `getting-started-components` branch.
+  - Similarly, clone the `reference-components` [repository](https://github.com/archetype-themes/reference-components) and switch to the `getting-started-components` branch.
 ```bash
 git clone https://github.com/path/to/reference-components.git
 cd reference-components
