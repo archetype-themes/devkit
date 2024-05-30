@@ -1,5 +1,7 @@
 # Developing theme components
 
+https://github.com/archetype-themes/devkit/assets/4837696/a2cc36f6-e921-4059-9ce4-1dfc62796b40
+
 A theme component is a discrete unit of code that typically includes HTML (or Liquid), CSS, and possibly JavaScript, designed to implement a particular feature within a Shopify theme.
 
 To learn more, check out [Intro to Component Architecture](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Theme%20Components/Introduction.md)
