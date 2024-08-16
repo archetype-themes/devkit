@@ -35,7 +35,7 @@ For example, a “Product Card” snippet can be designed to handle all aspects 
 ### 2. Clear Separation of State and Presentation:
 In Component-Based Architecture, the state (data) and presentation (UI) are kept separate, aligning with the idea that snippets should own the presentation layer end-to-end. State (e.g., product details, theme editor settings, translations) is passed into components via assigned Liquid variables declared by each component.
 
-This separation allows for more flexible and maintainable theme development, where the same snippet can render different data without altering its internal logic. See [[Separation of presentation and state in Shopify Liquid themes]].
+This separation allows for more flexible and maintainable theme development, where the same snippet can render different data without altering its internal logic. See [Separation of presentation and state in Shopify Liquid themes](/2.%20Architecture/Themes%20vs%20Components.md).
 ### 3. The Theme Editor as a Progressively Enhancement
 Components in a Shopify theme can be progressively enhanced by the Theme Editor, and are never dependant on it. Because a component just consumes state, it doesn't matter where it receives it from. State can be passed as a static value via a parameter on the `{% render %}` tag, or from a particular theme editor setting. By exposing certain settings and options via the Theme Editor, you allow users to customize the look and feel of a component without modifying the code.
 
