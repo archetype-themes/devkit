@@ -1,5 +1,10 @@
 # Getting started with Devkit
 
+> [!NOTE]
+> **Devkit Memberships are now available by invitation only!** We're excited to invite a select group of professionals to join the early access phase of Archetype Devkit Memberships. If you're interested in shaping the future of Shopify theme development and getting exclusive early access, sign up to the waitlist. Your feedback will help us fine-tune our offering for the broader community. [Read the full announcement here](#link-to-discussion-update-post) for more details!
+> 
+> **[Sign up for the invitation waitlist for Devkit Memberships](https://link.archetypethemes.co/GhCsDk)**
+
 Welcome to the Archetype Devkit Public Preview! 
 
 As Shopify increasingly targets large + enterprise merchants in a cost-conscious economic climate, the value of building your Online Store with Liquid is clearer than ever. Yet, existing tools like Dawn, Shopify CLI, and the Shopify Dev Docs often fall short for advanced theme development teams. 
