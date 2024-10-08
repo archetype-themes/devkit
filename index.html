@@ -207,10 +207,25 @@
       font-weight: 400;
       font-size: var(--sl-font-size-large);
       line-height: var(--sl-line-height-dense);
-      margin-bottom: var(--sl-spacing-3x-large);
+      margin-bottom: 1rem;
   
     }
-  
+
+    #find-out-more {
+      display: inline-block;
+      margin-bottom: 4rem;
+      color: var(--at-color-primary);
+      text-decoration: none;
+    }
+
+    #find-out-more:hover {
+      opacity: 0.6;
+    }
+
+    #find-out-more sl-icon {
+      margin-left: 0.25rem;
+      font-size: 0.8rem;
+    }
   
     .input-group {
       display: flex;
@@ -262,17 +277,17 @@
     }
     
     
-    #message.error {
+    #emailMessage.error {
       color: var(--sl-color-danger-600);
     }
   
-    #message.success {
+    #emailMessage.success {
       color: #868B74;
       font-weight: 600;
       margin-top: var(--sl-spacing-x-small);
     }
   
-    #message ~ sl-button {
+    #emailMessage ~ sl-button {
       margin-top: var(--sl-spacing-medium);
     }
   
@@ -318,10 +333,15 @@
       <a href="https://archetypethemes.co"><img id="logo" src="logo.png" width="180"></a>
       <h1>Fast track your advanced theme development</h1>
 
-      <p id="subtitle">Join our modern, component-first theme building experience for Shopify—now available for public preview on GitHub</p>
+      <p id="subtitle">Join our modern, component-first theme building experience for Shopify with a Devkit Membership—early access now available by invitation only.</p>
+
+      <a id="find-out-more" href="https://github.com" class="social" variant="primary">
+        <span>Find out more about Devkit Memberships</span>
+        <sl-icon name="box-arrow-up-right"></sl-icon>
+      </a>
 
       <form class="email-form">
-        <p>Submit your details to get started + receive your free Figma companion file:</p>
+        <p>Submit your details to receive updates and join the Devkit Membership invitation waitlist:</p>
         <div class="input-group">
           <sl-input 
             id="full_name"
@@ -350,7 +370,7 @@
         </div>
       </form>
 
-      <div id="message" aria-live="polite" hidden></div>
+      <div id="emailMessage" aria-live="polite" hidden></div>
 
       <p id="find-us-on">Find us on:</p>
       <sl-button class="social" href="https://github.com/archetype-themes" variant="default" size="small" pill>
@@ -377,7 +397,24 @@
 
     <div class="content__confirm-email" hidden>
       <a href="https://archetypethemes.co"><img id="logo" src="logo.png" width="180"></a>
-      <p>Your subscription has been confirmed!</p>
+      <p id="subtitle">Your subscription to updates and the Devkit Membership invitation waitlist has been confirmed!</p>
+
+      <form class="note-form">
+        <p>Share some notes about why you think we should invite you to the early access Devkit Membership:</p>
+        <div class="input-group">
+          <sl-textarea 
+            id="note"
+            class="email-input"
+            placeholder="I'd make a great early access Devkit Member because..." 
+            required
+          ></sl-input>
+        </div>
+        <div class="input-group">
+          <sl-button id="submit" class="email-input" type="submit" variant="primary">Submit</sl-button>
+        </div>
+      </form>
+
+      <div id="noteMessage" aria-live="polite" hidden></div>
     </div>
 
     <div class="content__confirm-email--error" hidden>
@@ -395,9 +432,12 @@
 </body>
 
 <script type="module">
-  const form = document.querySelector('.email-form');
-  const formMessage = document.querySelector('#message');
+  const emailForm = document.querySelector('.email-form');
+  const noteForm = document.querySelector('.note-form');
+  const emailFormMessage = document.querySelector('#emailMessage');
+  const noteFormMessage = document.querySelector('#noteMessage');
   const emailInput = document.querySelector('#email');
+  const noteInput = document.querySelector('#note');
   const nameInput = document.querySelector('#full_name');
   const companyInput = document.querySelector('#company');
 
@@ -414,6 +454,35 @@
       const {error} = await response.json();
       if (error) throw error
       return response.status === 200
+  }
+
+  async function addNote(email, note) {
+    try {
+      const response = await fetch(`${getBaseURL()}/api/newsletter/add-note`, {
+          method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ email, note })
+      });
+
+      // Handle error state
+      if (response.ok || response.status === 422) {
+        noteFormMessage.textContent = `Success! We'll be in touch when we're ready to invite you.`;
+        noteFormMessage.classList.remove("error")
+        noteFormMessage.classList.add("success")
+        noteFormMessage.hidden = false;
+        noteForm.hidden = true
+      } else {
+        throw response
+      }
+    } catch (e) {
+      noteFormMessage.textContent = `There was an error while trying to submit your note. Please reach out to us at dev@archetypethemes.co so we can get this fixed!`;
+      noteFormMessage.classList.remove("success")
+      noteFormMessage.classList.add("error")
+      noteFormMessage.hidden = false;
+      console.error(e)
+    }
   }
 
   function splitName(name) {
@@ -435,7 +504,7 @@
         first_name,
         last_name,
         company: companyInput.value || null,
-        tags: 'Devkit, Devkit Signup Form'
+        tags: 'Devkit, Devkit Signup Form, Devkit Early Access'
       })
     };
 
@@ -444,35 +513,30 @@
 
       // Handle error state
       if (response.ok || response.status === 422) {
-        formMessage.textContent = `Success! Check your email to confirm subscription.`;
-        formMessage.classList.remove("error")
-        formMessage.classList.add("success")
-        formMessage.hidden = false;
-        form.hidden = true
+        emailFormMessage.textContent = `Success! Check your email to confirm subscription.`;
+        emailFormMessage.classList.remove("error")
+        emailFormMessage.classList.add("success")
+        emailFormMessage.hidden = false;
+        emailForm.hidden = true
       } else if (response.status === 409) {
-        formMessage.textContent = `You're already subscribed to this list`;
-        formMessage.classList.remove("success")
-        formMessage.classList.add("error")
-        formMessage.hidden = false;
+        const currentUrl = new URL(window.location.href);
+        currentUrl.searchParams.set('confirm-email', 'true');
+        currentUrl.hash = emailInput.value;
+        window.location.href = currentUrl.toString();
       } else {
         throw response
       }
     } catch (e) {
-      formMessage.textContent = `There was an error while trying to submit the email`;
-      formMessage.classList.remove("success")
-      formMessage.classList.add("error")
-      formMessage.hidden = false;
+      emailFormMessage.textContent = `There was an error while trying to submit the email`;
+      emailFormMessage.classList.remove("success")
+      emailFormMessage.classList.add("error")
+      emailFormMessage.hidden = false;
       console.error(e)
     }
   }
 
-  const url = new URL(location.href);
-  const params = new URLSearchParams(url.search);
-
-  if (params.get('confirm-email') === 'true') {
-    const email = window.location.hash.slice(1);
-
-    confirmEmail(email)
+  async function submitEmailConfirmation(email) {
+    return confirmEmail(email)
       .then(() => {
         document.querySelector('.content__confirm-email').hidden = false;
       })
@@ -480,43 +544,65 @@
         console.error(error)
         document.querySelector('.content__confirm-email--error').hidden = false;
       })
-  } else {
-    document.querySelector('.content__main').hidden = false;
   }
 
-  await Promise.all([
-    customElements.whenDefined('sl-button'),
-    customElements.whenDefined('sl-input')
-  ]).then(() => {
-    emailInput.addEventListener('sl-input', event => {
-      nameError.hidden = true;
-    })
-    
-    form.addEventListener(
-      'sl-invalid',
-      event => {
-        // Suppress the browser's constraint validation message
+  async function addEmailFormHandlers() {
+    return Promise.all([
+      customElements.whenDefined('sl-button'),
+      customElements.whenDefined('sl-input')
+    ]).then(() => {
+      emailInput.addEventListener('sl-input', event => {
+        nameError.hidden = true;
+      })
+      
+      emailForm.addEventListener(
+        'sl-invalid',
+        event => {
+          // Suppress the browser's constraint validation message
+          event.preventDefault();
+  
+          nameError.textContent = `Error: ${event.target.validationMessage}`;
+          nameError.classList.remove("success")
+          nameError.classList.add("error")
+          nameError.hidden = false;
+  
+          event.target.focus();
+        },
+        { capture: true } // you must use capture since sl-invalid doesn't bubble!
+      );
+  
+      
+  
+      emailForm.addEventListener('submit', event => {
         event.preventDefault();
-
-        nameError.textContent = `Error: ${event.target.validationMessage}`;
-        nameError.classList.remove("success")
-        nameError.classList.add("error")
-        nameError.hidden = false;
-
-        event.target.focus();
-      },
-      { capture: true } // you must use capture since sl-invalid doesn't bubble!
-    );
-
-    
-
-    form.addEventListener('submit', event => {
-      event.preventDefault();
-      submitEmail()
-      // nameError.hidden = true;
-      // nameError.textContent = '';
-      // setTimeout(() => alert('All fields are valid'), 50);
+        submitEmail()
+      });
     });
-  });
+  }
+
+  async function addNoteFormHandlers(email) {
+    return Promise.all([
+      customElements.whenDefined('sl-textarea')
+    ]).then(() => {
+      noteForm.addEventListener('submit', event => {
+        event.preventDefault();
+        addNote(email, 'Early Access Waitlist Note: ' + noteInput.value)
+      })
+    })
+  }
+
+  const url = new URL(location.href);
+  const params = new URLSearchParams(url.search);
+  const email = window.location.hash.slice(1);
+
+  if (params.get('confirm-email') === 'true') {
+    submitEmailConfirmation(email);
+    addNoteFormHandlers(email);
+  } else {
+    document.querySelector('.content__main').hidden = false;
+    addEmailFormHandlers();
+  }
+
+  
 </script>
 </html>
