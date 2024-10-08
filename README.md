@@ -2,10 +2,12 @@
 
 <a target="_blank" href="https://youtu.be/3jmWnYrFeXc"><img width="1242" alt="image" src="https://github.com/archetype-themes/devkit/assets/4837696/5e994c3d-6508-48f8-b9d0-827ee71b1871"></a>
 
-> [!NOTE]
-> **This initial preview of the Archetype Devkit is a call to action for the community.** We invite you to bring your insights and experiences to help shape our collective approach to theme development. Your feedback is crucial as we refine our methodologies and collaborate to establish best practices that benefit us all. Check out the the [Contributing](#contributing) section for more details!
+Here's the revised version with the "invitation only" language and waitlist sign-up:
 
-**[Sign up for Devkit updates + get your free Figma companion file](https://link.archetypethemes.co/GhCsDk)**
+> [!NOTE]
+> **Devkit Memberships are now available by invitation only!** We're excited to invite a select group of professionals to join the early access phase of Archetype Devkit. If you're interested in shaping the future of Shopify theme development and getting exclusive early access, sign up to the waitlist. Your feedback will help us fine-tune the platform for the broader community. [Read the full announcement here](#link-to-discussion-update-post) for more details!
+
+**[Sign up for the invitation waitlist for Devkit Memberships](https://link.archetypethemes.co/GhCsDk)**
 
 Welcome to Archetype Devkit! A public, community-backed standard for advanced theme design and development.
 
@@ -14,6 +16,14 @@ Welcome to Archetype Devkit! A public, community-backed standard for advanced th
 - 🧱 **Reusable theme components** - Build the pieces really well and reuse it in other places.
 - 👷 **Centralize and compound contributions over time** - Centralize your theme code and share it across theme projects. A clear interface between re-usable and project-specific code. Make it it easy to keep your themes up-to-date.
 - 🤲 **Better design handoffs** - A component design experience in Figma that matches the code for streamlined handoff to developers. 
+
+
+## Devkit Memberships
+
+Devkit Memberships provide exclusive access to our private repositories, offering early access to Archetype's community-driven standard for Shopify theme design and development. As a Devkit Member, you’ll collaborate with other theme professionals, receive consultations, and help shape the future of theme development through shared insights and feedback.
+
+[Read the full Devkit Membership early access announcement here](#link-to-discussion-update-post) for all the details.
+
 
 ## Getting Started
 
