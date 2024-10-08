@@ -40,9 +40,10 @@ Here's a list of repos and what they offer:
 - [archetype-themes/locales](https://github.com/archetype-themes/locales) - Shared locales used across all theme projects
 
 ### Figma Companion File
+
 Our Figma file powers our component and theme design handoffs for developers.
 
-[Access the Figma file by signing up to Devkit updates](https://link.archetypethemes.co/GhCsDk)
+[Access the Devkit preview Figma file](https://www.figma.com/community/file/1425140095049949991/devkit-preview)
 
 
 ## Getting started guides

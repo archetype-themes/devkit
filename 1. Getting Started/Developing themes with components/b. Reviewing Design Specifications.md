@@ -1,9 +1,7 @@
 # Reviewing design specifications in Figma
 
 >[!TIP]
-> The Figma file that accompanies this preview and getting started guide are available for download.
->
-> [Access the Figma file by signing up to Devkit updates](https://link.archetypethemes.co/GhCsDk)
+> The Figma file that accompanies this preview and getting started guide are available for free in Figma Community. [Click here to access it.](https://www.figma.com/community/file/1425140095049949991/devkit-preview)
 >
 > [Revisit our guide on using Figma to inspect components](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Developing%20components/b.%20Reviewing%20Design%20Specifications.md) 
 

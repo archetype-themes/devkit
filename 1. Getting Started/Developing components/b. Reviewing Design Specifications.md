@@ -1,9 +1,7 @@
 # Reviewing design specifications
 
 >[!TIP]
-> The Figma file that accompanies this preview and getting started guide are available for download.
->
-> [Access the Figma file by signing up to Devkit updates](https://link.archetypethemes.co/GhCsDk)
+> The Figma file that accompanies this preview and getting started guide are available for free in Figma Community. [Click here to access it.](https://www.figma.com/community/file/1425140095049949991/devkit-preview)
 
 ### Figma - Application Download and Account setup
 

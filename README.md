@@ -31,7 +31,7 @@ Check out the [Getting Started Guide](https://github.com/archetype-themes/devkit
 
 Devkit is more than just a developer solution! The designs that developers work from play a crucial role in rolling out new theme projects.
 
-[Sign up for Devkit updates](https://link.archetypethemes.co/GhCsDk) and receive a download link to access the Figma file that accompanies the [archetype-themes/reference-theme](https://github.com/archetype-themes/reference-theme) + [archetype-themes/reference-components](https://github.com/archetype-themes/reference-components) repos
+[Access the Devkit preview Figma file](https://www.figma.com/community/file/1425140095049949991/devkit-preview) that accompanies the [archetype-themes/reference-theme](https://github.com/archetype-themes/reference-theme) + [archetype-themes/reference-components](https://github.com/archetype-themes/reference-components) repos
 
 ## Contributing
 
