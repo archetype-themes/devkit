@@ -2,8 +2,6 @@
 
 <a target="_blank" href="https://youtu.be/3jmWnYrFeXc"><img width="1242" alt="image" src="https://github.com/archetype-themes/devkit/assets/4837696/5e994c3d-6508-48f8-b9d0-827ee71b1871"></a>
 
-Here's the revised version with the "invitation only" language and waitlist sign-up:
-
 > [!NOTE]
 > **Devkit Memberships are now available by invitation only!** We're excited to invite a select group of professionals to join the early access phase of Archetype Devkit Memberships. If you're interested in shaping the future of Shopify theme development and getting exclusive early access, sign up to the waitlist. Your feedback will help us fine-tune our offering for the broader community. [Read the full announcement here](#link-to-discussion-update-post) for more details!
 > 
