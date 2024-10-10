@@ -537,14 +537,24 @@
   }
 
   async function submitEmailConfirmation(email) {
-    return confirmEmail(email)
-      .then(() => {
-        document.querySelector('.content__confirm-email').hidden = false;
-      })
-      .catch((error) => {
-        console.error(error)
-        document.querySelector('.content__confirm-email--error').hidden = false;
-      })
+    if (!isValidEmail(email)) {
+      console.error('Invalid email');
+      document.querySelector('.content__confirm-email--error').hidden = false;
+      return;
+    }
+
+    try {
+      await confirmEmail(email);
+      document.querySelector('.content__confirm-email').hidden = false;
+    } catch (error) {
+      console.error(error);
+      document.querySelector('.content__confirm-email--error').hidden = false;
+    }
+  }
+
+  function isValidEmail(email) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
   }
 
   async function addEmailFormHandlers() {
