@@ -7,7 +7,7 @@ Here's the revised version with the "invitation only" language and waitlist sign
 > [!NOTE]
 > **Devkit Memberships are now available by invitation only!** We're excited to invite a select group of professionals to join the early access phase of Archetype Devkit Memberships. If you're interested in shaping the future of Shopify theme development and getting exclusive early access, sign up to the waitlist. Your feedback will help us fine-tune our offering for the broader community. [Read the full announcement here](#link-to-discussion-update-post) for more details!
 > 
-> **[Sign up for the invitation waitlist for Devkit Memberships](https://link.archetypethemes.co/GhCsDk)**
+> **[Sign up for the invitation waitlist for Devkit Memberships](https://github.com/orgs/archetype-themes/discussions/32)**
 
 Welcome to Archetype Devkit! A public, community-backed standard for advanced theme design and development.
 
