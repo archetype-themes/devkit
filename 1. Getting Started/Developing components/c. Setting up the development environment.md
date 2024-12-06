@@ -1,5 +1,7 @@
 # Setting Up Your Development Environment
 
+https://github.com/archetype-themes/devkit/assets/4837696/40f67093-36cd-4789-b0b6-169577fd4b9f
+
 ### 1. Setup Shopify CLI and the Theme Component Plugin
 
 We've made it easy to incorporate theme components into your development workflow by building a Shopify CLI plugin that adds a suite of commands accesible via `shopify theme component`.
