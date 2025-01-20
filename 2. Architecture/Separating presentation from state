@@ -1,4 +1,4 @@
-# Theme vs. Component files - Separating presentation from state
+# Separating presentation from state
 
 The separation between the presentation layer and the state layer in a Shopify theme can be understood as a clear distinction between **what is displayed** (presentation) and **how it’s configured or managed** (state). This separation is crucial for maintaining a clean, modular architecture where each part of the theme has a well-defined role.
 
