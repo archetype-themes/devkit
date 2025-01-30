@@ -4,7 +4,7 @@
 
 We've made it easy to incorporate theme components into your development workflow by building a Shopify CLI plugin that adds a suite of commands accesible via `shopify theme component`.
 
-See the [archetype-themes/plugin-theme-component](https://github.com/archetype-themes/plugin-theme-component?tab=readme-ov-file#getting-started) README for setup details.
+See the [archetype-themes/plugin-devkit](https://github.com/archetype-themes/plugin-devkit?tab=readme-ov-file#getting-started) README for setup details.
 
 ### 2. Setup your development store
 
@@ -31,7 +31,7 @@ SHOPIFY_FLAG_STORE=your-dev-store.myshopify.com
 
 You can use the [Theme Access app](https://shopify.dev/docs/themes/tools/theme-access#how-the-theme-access-app-works) to get your Shopify store password.
 
->[!WARNING]
+> [!WARNING]
 > Never commit your .env to version control since it can contain sensitive information
 
 ---

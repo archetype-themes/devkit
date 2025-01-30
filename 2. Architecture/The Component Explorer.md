@@ -1,6 +1,6 @@
 # The Component Explorer
 
-The Component Explorer is a development environment built directly into the [Shopify CLI plugin](https://github.com/archetype-themes/plugin-theme-component). It enables theme developers to create, develop and test theme components in an isolated environment within the [Shopify theme editor](https://shopify.dev/docs/themes/tools/online-editor).
+The Component Explorer is a development environment built directly into the [Shopify CLI plugin](https://github.com/archetype-themes/plugin-devkit). It enables theme developers to create, develop and test theme components in an isolated environment within the [Shopify theme editor](https://shopify.dev/docs/themes/tools/online-editor).
 
 The Component Explorer becomes the default environment when you run the following command inside of a [components repository](https://github.com/archetype-themes/reference-components):
 
