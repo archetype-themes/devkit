@@ -2,7 +2,7 @@
 
 We embrace the modern web, and we recognize the importance of a simpler and more straightforward approach to JavaScript in themes. A fundamental tool in achieving this modularity is through JavaScript modules.
 
-A key feature of the [Shopify CLI Theme Component plugin](https://github.com/archetype-themes/plugin-theme-component) is its capability to detect JavaScript files and automatically construct an [import map](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/importmap) as a snippet. This import map snippet can then be integrated into your theme's code.
+A key feature of the [Shopify CLI Theme Component plugin](https://github.com/archetype-themes/plugin-devkit) is its capability to detect JavaScript files and automatically construct an [import map](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/importmap) as a snippet. This import map snippet can then be integrated into your theme's code.
 
 The backbone of this is the [`import-map.json`](https://github.com/archetype-themes/reference-components/blob/main/importmap.json) file located at the root of the `reference-components` repository. Here is an example of what it looks like:
 

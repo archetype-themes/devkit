@@ -1,17 +1,16 @@
 # Getting started with Devkit
 
-> [!NOTE]
-> **Devkit Memberships are now available by invitation only!** We're excited to invite a select group of professionals to join the early access phase of Archetype Devkit Memberships. If you're interested in shaping the future of Shopify theme development and getting exclusive early access, sign up to the waitlist. Your feedback will help us fine-tune our offering for the broader community. [Read the full announcement here](https://github.com/orgs/archetype-themes/discussions/32) for more details!
-> 
+> [!NOTE] > **Devkit Memberships are now available by invitation only!** We're excited to invite a select group of professionals to join the early access phase of Archetype Devkit Memberships. If you're interested in shaping the future of Shopify theme development and getting exclusive early access, sign up to the waitlist. Your feedback will help us fine-tune our offering for the broader community. [Read the full announcement here](https://github.com/orgs/archetype-themes/discussions/32) for more details!
+>
 > **[Sign up for the invitation waitlist for Devkit Memberships](https://dev.archetypethemes.co)**
 
-Welcome to the Archetype Devkit Public Preview! 
+Welcome to the Archetype Devkit Public Preview!
 
-As Shopify increasingly targets large + enterprise merchants in a cost-conscious economic climate, the value of building your Online Store with Liquid is clearer than ever. Yet, existing tools like Dawn, Shopify CLI, and the Shopify Dev Docs often fall short for advanced theme development teams. 
+As Shopify increasingly targets large + enterprise merchants in a cost-conscious economic climate, the value of building your Online Store with Liquid is clearer than ever. Yet, existing tools like Dawn, Shopify CLI, and the Shopify Dev Docs often fall short for advanced theme development teams.
 
-Archetype is opening up the same tools we use to build themes that power 1000s of Shopify stores, to serve the needs of the broader professional Shopify theme design and development community. 
+Archetype is opening up the same tools we use to build themes that power 1000s of Shopify stores, to serve the needs of the broader professional Shopify theme design and development community.
 
-With an open-source first approach, we aim to enhance collaboration and drive innovation across the Shopify theme development community. **No more solutioning in private silos.** 
+With an open-source first approach, we aim to enhance collaboration and drive innovation across the Shopify theme development community. **No more solutioning in private silos.**
 
 We all win when we collectively pool our expertise into **how** we build themes. Save the competetion for **what** we build.
 
@@ -34,12 +33,13 @@ The benefits of using the kit for Shopify theme design and development include:
 The Devkit preview is everything that is needed for Archetype to effectively communicate our vision of how to build themes + bootstrap a thriving community of professionals who share the desire to build successful businesses that ship high quality Shopify theme projects to merchants.
 
 ### Github Repos
-Devkit is a Github-centric solution. If we can do it in Github, then we will. 
+
+Devkit is a Github-centric solution. If we can do it in Github, then we will.
 
 Here's a list of repos and what they offer:
 
 - [archetype-themes/devkit](https://github.com/archetype-themes/devkit) - This repo serves to act as the central community hub + documentation for all things devkit
-- [archetype-themes/plugin-theme-component](https://github.com/archetype-themes/plugin-theme-component) - A Shopify CLI Plugin that supports the theme component dev experience
+- [archetype-themes/plugin-devkit](https://github.com/archetype-themes/plugin-devkit) - A Shopify CLI Plugin that supports the theme component dev experience
 - [archetype-themes/reference-theme](https://github.com/archetype-themes/reference-theme) - A theme built with devkit consisting of an complete buyer purchase flow
 - [archetype-themes/reference-components](https://github.com/archetype-themes/reference-components) - The components that power the reference theme
 - [archetype-themes/locales](https://github.com/archetype-themes/locales) - Shared locales used across all theme projects
@@ -50,10 +50,8 @@ Our Figma file powers our component and theme design handoffs for developers.
 
 [Access the Devkit preview Figma file](https://www.figma.com/community/file/1425140095049949991/devkit-preview)
 
-
 ## Getting started guides
 
 - [Get started designing components and themes](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Designing%20components%20and%20themes/Introduction.md)
 - [Get started with developing components](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Developing%20components/a.%20Introduction.md)
 - [Get started with developing themes using components](https://github.com/archetype-themes/devkit/blob/main/1.%20Getting%20Started/Developing%20themes%20with%20components/a.%20Introduction.md)
-
