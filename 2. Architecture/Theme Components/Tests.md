@@ -1,6 +1,6 @@
 # Component tests
 
-The [Component Explorer](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/Component%20Explorer.md) provides a platform to develop theme components in an isolated environment. As part of this setup, we have integrated [Playwright](https://playwright.dev/) into the development workflow to facilitate testings of these components.
+The [Component Explorer](https://github.com/archetype-themes/devkit/blob/main/2.%20Architecture/The%20Component%20Explorer.md) provides a platform to develop theme components in an isolated environment. As part of this setup, we have integrated [Playwright](https://playwright.dev/) into the development workflow to facilitate testings of these components.
 
 > [!NOTE]
 > This testing environment is still a work in progress. The long-term vision is to develop a more robust version of what we currently offer. We aim to demonstrate that enhanced testing capabilities are possible and we're committed to delivering a long-awaited feature to the Shopify theme developer community.
