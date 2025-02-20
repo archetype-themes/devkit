@@ -1,6 +1,6 @@
 # Development workflow
 
-Our component-first approach requires the [Shopify CLI plugin](https://github.com/archetype-themes/plugin-theme-component) to be installed.
+Our component-first approach requires the [Shopify CLI plugin](https://github.com/archetype-themes/plugin-devkit) to be installed.
 
 All plugin commands are [listed below](https://github.com/archetype-themes/plugin-theme-component?tab=readme-ov-file#list-of-commands) and you can learn more about [developing themes with components](https://github.com/archetype-themes/devkit/tree/main/1.%20Getting%20Started/Developing%20themes%20with%20components). In simple terms though, the development workflow is typically done in 3 different stages all using the plugin's commands:
 
