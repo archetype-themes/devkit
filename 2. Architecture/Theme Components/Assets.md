@@ -1,6 +1,6 @@
 # Component assets
 
-The [Theme component plugin](https://github.com/archetype-themes/plugin-theme-component) compiles assets depending on their file type.
+The [Theme component plugin](https://github.com/archetype-themes/plugin-devkit) compiles assets depending on their file type.
 
 Asset files (CSS, JavaScript, SVG, etc.) added to your components will automatically be compiled to your Shopify theme's `assets/` directory.
 
