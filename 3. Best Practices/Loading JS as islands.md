@@ -20,4 +20,4 @@ For instance, consider our [`cart-note`](https://github.com/archetype-themes/ref
 
 In this example, the `on:visible` strategy initializes the module only when the component becomes visible to the user. This strategy is defined in the component's parameter list and can be easily changed to another condition if necessary.
 
-The JavaScript file, [`block-cart-note.js`](https://github.com/archetype-themes/reference-components/blob/main/components/block-cart-note/assets/block-cart-note.js), is located in the component's `assets/` directory and is automatically included in the import map to ensure it is properly loaded when referenced.
+The JavaScript file, [`block-cart-note.js`](https://github.com/archetype-themes/reference-components/blob/main/components/block-cart-note/assets/component.block-cart-note.js), is located in the component's `assets/` directory and is automatically included in the import map to ensure it is properly loaded when referenced.
